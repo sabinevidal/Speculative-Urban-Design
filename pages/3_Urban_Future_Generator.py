@@ -5,7 +5,7 @@ import subprocess
 from PIL import Image
 
 st.set_page_config(
-    page_title="Urban Design Generator",
+    page_title="Speculative Urban Future Generator",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -60,15 +60,15 @@ def setup_directories():
 
 
 # Main content
-st.header("Urban Design Generator")
-st.write("Generate speculative urban design concepts using Street View images and AI.")
+st.header("Speculative Urban Future Generator")
+st.write("Generate speculative urban future concepts using Street View images and AI.")
 
 # Ensure directories exist
 setup_directories()
 
 # Load available prompts for the dropdown
 with st.spinner("Loading available prompts..."):
-    from urban_design_generator import (
+    from urban_future_generator import (
         get_available_prompt_names,
         get_available_prompt_ids,
         get_prompt_by_name,
@@ -159,11 +159,11 @@ with col2:
 
 # Show the generate button only if we have a street view image
 if st.session_state.street_view_image:
-    st.subheader("Step 3: Generate Urban Design Concept")
+    st.subheader("Step 3: Generate an Image of an Urban Future")
 
-    if st.button("Generate Urban Design Concept", use_container_width=True):
-        with st.spinner("Generating urban design concept..."):
-            from urban_design_generator import transform_street_view
+    if st.button("Generate Urban Future Image", use_container_width=True):
+        with st.spinner("Generating urban future image..."):
+            from urban_future_generator import transform_street_view
 
             # Transform the street view image
             transform_result = transform_street_view(
@@ -174,7 +174,7 @@ if st.session_state.street_view_image:
             )
 
             if transform_result["success"]:
-                st.success("Successfully generated urban design concept!")
+                st.success("Successfully generated urban future image!")
 
                 # Display the results
                 cols = st.columns(2)
@@ -190,7 +190,7 @@ if st.session_state.street_view_image:
                         st.error(error)
 
                 with cols[1]:
-                    st.markdown("**Transformed Urban Design**")
+                    st.markdown("**Transformed Urban Future Image**")
                     st.write(f"**Prompt:** {transform_result['prompt']}")
 
                     # Display first transformed image
@@ -221,17 +221,19 @@ if st.session_state.street_view_image:
                         elif error:
                             variation_cols[idx].error(error)
             else:
-                st.error(f"Error generating urban design: {transform_result['error']}")
+                st.error(
+                    f"Error generating urban future image: {transform_result['error']}"
+                )
 
 # Display previously generated results at the bottom
-with st.spinner("Loading previous urban design results..."):
+with st.spinner("Loading previous urban future images..."):
     urban_design_metadata = load_json_if_exists(
         "results/urban_design/urban_design_metadata.json"
     )
 
 if urban_design_metadata:
-    with st.expander("View Previous Urban Design Generations", expanded=False):
-        st.subheader("Previous Urban Design Generations")
+    with st.expander("View Previous Urban Future Image Generations", expanded=False):
+        st.subheader("Previous Urban Future Image Generations")
 
         # Show the most recent 5 designs
         for i, result in enumerate(urban_design_metadata[-5:]):
@@ -247,7 +249,7 @@ if urban_design_metadata:
                         st.error(error)
 
                 with col2:
-                    st.markdown("**Transformed Urban Design**")
+                    st.markdown("**Transformed Urban Future Images**")
                     st.write(f"**Prompt:** {result['prompt']}")
 
                     # If there are multiple transformed images, show them in columns

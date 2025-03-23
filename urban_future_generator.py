@@ -7,7 +7,7 @@ import shutil
 
 # Output directories
 STREETVIEW_DIR = "sample_images/street_view"
-RESULTS_DIR = "results/urban_design"
+RESULTS_DIR = "results/urban_future"
 PROMPT_FILE = "results/prompt_results/cluster_prompts.json"
 
 
@@ -17,7 +17,7 @@ def setup_directories():
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
     # Ensure the metadata JSON file exists and is properly initialized
-    metadata_path = os.path.join(RESULTS_DIR, "urban_design_metadata.json")
+    metadata_path = os.path.join(RESULTS_DIR, "urban_future_metadata.json")
     if not os.path.exists(metadata_path):
         with open(metadata_path, "w") as f:
             f.write("[]")
@@ -82,16 +82,16 @@ def get_prompt_by_name(prompt_name):
 
 def transform_street_view(image_path, prompt, strength=0.7, prompt_name=None):
     """
-    Transform a street view image using Stability AI API.
+    Transform a street view image into a speculative urban future image.
 
     Args:
-        image_path: Path to the street view image
-        prompt: Text prompt for the transformation
-        strength: How much to transform the image (0.0 to 1.0)
-        prompt_name: The cluster ID/name of the prompt used
+        image_path (str): Path to the street view image
+        prompt (str): Prompt for the transformation
+        strength (float): Strength of the transformation (0.0-1.0)
+        prompt_name (str, optional): Name of the prompt for metadata
 
     Returns:
-        dict: Information about the transformed image(s)
+        dict: Dictionary containing the transformation results
     """
     try:
         # Call Stability AI API to transform the image
@@ -106,7 +106,7 @@ def transform_street_view(image_path, prompt, strength=0.7, prompt_name=None):
         image_basename = os.path.basename(image_path).split(".")[0]
         output_dir = os.path.join(RESULTS_DIR, image_basename)
         saved_images = save_generated_images(
-            response, output_dir, f"urban_design_{image_basename}"
+            response, output_dir, f"urban_future_{image_basename}"
         )
 
         # Create result dictionary
@@ -146,12 +146,12 @@ def transform_street_view(image_path, prompt, strength=0.7, prompt_name=None):
 
 def load_metadata():
     """
-    Load the urban design metadata from the JSON file.
+    Load the urban future metadata from the JSON file.
 
     Returns:
-        list: List containing urban design metadata
+        list: List containing urban future metadata
     """
-    metadata_path = os.path.join(RESULTS_DIR, "urban_design_metadata.json")
+    metadata_path = os.path.join(RESULTS_DIR, "urban_future_metadata.json")
 
     # Ensure the file exists
     if not os.path.exists(metadata_path):
@@ -176,11 +176,32 @@ def load_metadata():
 
 def save_metadata(metadata):
     """
-    Save the urban design metadata to the JSON file.
+    Save the urban future metadata to the JSON file.
 
     Args:
-        metadata (list): List containing urban design metadata
+        metadata (list): List containing urban future metadata
     """
-    metadata_path = os.path.join(RESULTS_DIR, "urban_design_metadata.json")
+    metadata_path = os.path.join(RESULTS_DIR, "urban_future_metadata.json")
+
+    # Ensure we're not overwriting existing data
+    existing_metadata = []
+    if os.path.exists(metadata_path):
+        try:
+            with open(metadata_path, "r") as f:
+                content = f.read().strip()
+                if content:  # File exists and is not empty
+                    existing_metadata = json.load(f)
+        except json.JSONDecodeError:
+            # If the file is corrupted, we'll start with an empty list
+            existing_metadata = []
+
+    # If metadata is a single entry, convert it to a list
+    if isinstance(metadata, dict):
+        metadata = [metadata]
+
+    # Combine existing metadata with new metadata
+    combined_metadata = existing_metadata + metadata
+
+    # Write the combined metadata back to the file
     with open(metadata_path, "w") as f:
-        json.dump(metadata, f, indent=4)
+        json.dump(combined_metadata, f, indent=4)

@@ -1,6 +1,6 @@
-# Urban Design Image Analysis Tool
+# Speculative Urban Future Generator
 
-A Streamlit-based application that processes, analyzes and clusters urban design imagery, then generates prompts for Stable Diffusion img2img transformations. Features an Urban Design Generator that creates design concepts from street view images.
+A Streamlit-based application that processes, analyzes and clusters urban design imagery from selected films, then generates prompts for Stable Diffusion img2img transformations. Features a Speculative Urban Future Generator that creates design concepts from street view images.
 
 ## Features
 
@@ -75,14 +75,14 @@ The application is structured as a multi-page Streamlit app with the following s
    - Generate Stable Diffusion img2img prompts based on each cluster's characteristics
    - View and edit generated prompts
 
-4. **Urban Design Generator**:
+4. **Speculative Urban Future Generator**:
    - Select street view images from the library
    - Choose design concept prompts
-   - Transform street views into urban design concepts using Stability AI
+   - Transform street views into speculative urban future concepts using Stability AI
    - Adjust transformation parameters
 
-5. **Urban Design Gallery**:
-   - Browse previously generated urban designs
+5. **Speculative Urban Future Gallery**:
+   - Browse previously generated urban futures
    - View original and transformed images side by side
    - Explore design concepts with their associated metadata
 
@@ -92,17 +92,17 @@ The application is structured as a multi-page Streamlit app with the following s
 - `pages/` - Contains the individual pages of the Streamlit application
   - `1_Image_Processing_Analysis.py` - Image processing and analysis page
   - `2_Generate_Prompts.py` - Prompt generation page
-  - `3_Urban_Design_Generator.py` - Urban design generator page
-  - `4_Urban_Design_Gallery.py` - Urban design gallery page
+  - `3_Urban_Future_Generator.py` - Speculative urban future generator page
+  - `4_Urban_Future_Gallery.py` - Speculative urban future gallery page
 - `image_processor.py` - Processes images and analyzes them with OpenAI
 - `cluster_analysis.py` - Clusters processed images based on analysis
 - `google_maps_api.py` - Handles Google Maps API interactions for Street View images
 - `stability_api.py` - Interfaces with Stability AI for image transformations
-- `urban_design_generator.py` - Combines image processing and Stability AI to generate urban design concepts
+- `urban_future_generator.py` - Combines image processing and Stability AI to generate speculative urban future concepts
 - `sample_images/` - Contains sample urban design images
 - `streetview_images/` - Stores street view images used for transformation
 - `processed_images/` - Stores processed images and analysis results
-- `results/` - Stores clustering results, prompts, and urban design outputs
+- `results/` - Stores clustering results, prompts, and generated urban future outputs
 
 ## Requirements
 

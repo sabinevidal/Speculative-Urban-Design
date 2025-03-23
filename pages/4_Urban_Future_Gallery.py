@@ -4,7 +4,7 @@ import json
 from PIL import Image
 
 st.set_page_config(
-    page_title="Urban Design Gallery",
+    page_title="Speculative Urban Future Gallery",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -41,12 +41,50 @@ def load_json_if_exists(file_path):
     return None
 
 
+# Function to find all image files in the urban future results directory
+def find_all_urban_future_images():
+    """Find all images in the urban future results directory"""
+    results_dir = "results/urban_future"
+    image_files = []
+
+    # Get a set of images already in metadata to avoid duplicates
+    metadata_path = os.path.join(results_dir, "urban_future_metadata.json")
+    metadata_images = set()
+    metadata = load_json_if_exists(metadata_path) or []
+
+    for entry in metadata:
+        if "transformed_images" in entry:
+            for img in entry["transformed_images"]:
+                metadata_images.add(img)
+
+    # Scan for images not in metadata
+    if os.path.exists(results_dir):
+        for root, dirs, files in os.walk(results_dir):
+            for file in files:
+                if file.lower().endswith((".png", ".jpg", ".jpeg")):
+                    full_path = os.path.join(root, file)
+                    if full_path not in metadata_images:
+                        # Try to determine the original image from directory name
+                        dir_name = os.path.basename(root)
+                        image_files.append(
+                            {
+                                "timestamp": "Unknown",
+                                "original_image": f"streetview_images/{dir_name}.jpg",
+                                "transformed_images": [full_path],
+                                "prompt": "Unknown (Image found outside metadata)",
+                                "prompt_name": "Unknown",
+                            }
+                        )
+
+    return image_files
+
+
 # Main content
-st.header("Urban Design Gallery")
-st.write("View all previously generated urban design concepts.")
+st.header("Speculative Urban Future Gallery")
+st.write("View all previously generated urban future images.")
 
 # Load the prompt mapping to get prompt names
-from urban_design_generator import load_cluster_prompts, setup_directories
+from urban_future_generator import load_cluster_prompts, setup_directories
 
 # Ensure directories and files are set up properly
 setup_directories()
@@ -59,47 +97,28 @@ if prompts_data:
         cluster_id: data["name"] for cluster_id, data in prompts_data.items()
     }
 
-# Load urban design metadata
-metadata_path = "results/urban_design/urban_design_metadata.json"
-urban_design_metadata = load_json_if_exists(metadata_path)
+# Load urban future metadata
+metadata_path = "results/urban_future/urban_future_metadata.json"
+urban_future_metadata = load_json_if_exists(metadata_path) or []
 
-if not urban_design_metadata:
+# Find all image files not in metadata
+unlisted_images = find_all_urban_future_images()
+
+# Combine listed and unlisted images
+all_designs = urban_future_metadata + unlisted_images
+
+if not all_designs:
     st.info(
-        "No urban designs have been generated yet. Try generating some designs in the Urban Design Generator page."
+        "No urban future images have been generated yet. Try generating some images in the Speculative Urban Future Generator page."
     )
 else:
     # Add filtering options
     col1, col2 = st.columns([1, 3])
 
     with col1:
-        # Extract all unique locations
-        all_locations = sorted(
-            list(
-                set(
-                    [
-                        design.get("location", "Unknown")
-                        for design in urban_design_metadata
-                    ]
-                )
-            )
-        )
-
-        # Add 'All Locations' option
-        filter_location = st.selectbox(
-            "Filter by Location",
-            ["All Locations"] + all_locations,
-        )
-
         # Extract all unique prompts
         all_prompts = sorted(
-            list(
-                set(
-                    [
-                        design.get("prompt_name", "Unknown")
-                        for design in urban_design_metadata
-                    ]
-                )
-            )
+            list(set([design.get("prompt_name", "Unknown") for design in all_designs]))
         )
 
         # Map prompt IDs to names if available
@@ -121,16 +140,11 @@ else:
             ["Newest First", "Oldest First"],
         )
 
-    # Apply filters
-    filtered_designs = urban_design_metadata
+        # Add option to show only unlisted images
+        show_only_unlisted = st.checkbox("Show only unlisted images")
 
-    # Filter by location
-    if filter_location != "All Locations":
-        filtered_designs = [
-            design
-            for design in filtered_designs
-            if design.get("location") == filter_location
-        ]
+    # Apply filters
+    filtered_designs = all_designs
 
     # Filter by prompt
     if filter_prompt != "All Designs":
@@ -156,6 +170,12 @@ else:
                 if design.get("prompt_name") == filter_prompt
             ]
 
+    # Filter for unlisted images if requested
+    if show_only_unlisted:
+        filtered_designs = [
+            d for d in filtered_designs if d.get("timestamp") == "Unknown"
+        ]
+
     # Sort the designs
     if sort_option == "Newest First":
         filtered_designs = sorted(
@@ -167,13 +187,11 @@ else:
         )
 
     # Display the designs
-    st.subheader(f"Showing {len(filtered_designs)} Urban Design Concepts")
+    st.subheader(f"Showing {len(filtered_designs)} Urban Future Images")
 
     # Group by date for better organization
     for i, design in enumerate(filtered_designs):
-        with st.expander(
-            f"{design.get('location', 'Unknown')} - {design.get('timestamp', 'Unknown')}"
-        ):
+        with st.expander(f"{design.get('timestamp', 'Unknown')}"):
             cols = st.columns([1, 2])
 
             with cols[0]:
@@ -190,7 +208,7 @@ else:
                 st.markdown(f"**Design Concept**: {prompt_name}")
 
             with cols[1]:
-                st.markdown("**Generated Urban Design**")
+                st.markdown("**Generated Urban Future Images**")
 
                 # Show the prompt used
                 st.write(f"**Prompt**: {design.get('prompt', 'No prompt specified')}")

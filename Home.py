@@ -4,7 +4,7 @@ import json
 from PIL import Image
 
 st.set_page_config(
-    page_title="Urban Design Image Analysis",
+    page_title="Speculative Urban Future Generator",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -45,27 +45,27 @@ def load_json_if_exists(file_path):
 def main():
     # Ensure directories and files are set up properly
     try:
-        from urban_design_generator import setup_directories
+        from urban_future_generator import setup_directories
 
         setup_directories()
     except ImportError:
         pass  # Skip if not available
 
-    st.title("Urban Design Image Analysis Tool")
+    st.title("Speculative Urban Future Generator")
 
     st.markdown(
         """
-    ## Welcome to the Urban Design Image Analysis Tool
+    ## Welcome to the Speculative Urban Future Generator
 
     This tool helps you analyze urban design elements from images, create design concepts,
-    and generate speculative urban design visualizations.
+    and generate speculative urban future visualizations.
 
     ### How to use this tool:
 
     1. **Image Processing & Analysis**: Process image datasets and analyze their visual elements
     2. **Generate Prompts**: Create prompts for design concepts based on analysis
-    3. **Urban Design Generator**: Generate new urban design concepts using AI
-    4. **Urban Design Gallery**: View and explore all previously generated urban designs
+    3. **Speculative Urban Future Generator**: Generate new urban future images using AI
+    4. **Speculative Urban Future Gallery**: View and explore all previously generated urban future images
 
     Use the sidebar to navigate between these sections.
     """
@@ -73,10 +73,10 @@ def main():
 
     # Display sample image or recent results if available
     latest_results = load_json_if_exists(
-        "results/urban_design/urban_design_metadata.json"
+        "results/urban_future/urban_future_metadata.json"
     )
     if latest_results and len(latest_results) > 0:
-        st.subheader("Recent Urban Design Generation")
+        st.subheader("Recent Speculative Urban Future Generation")
         latest = latest_results[-1]
 
         col1, col2 = st.columns(2)
@@ -90,7 +90,7 @@ def main():
                 st.error(error)
 
         with col2:
-            st.markdown("**Transformed Urban Design**")
+            st.markdown("**Transformed Urban Future**")
             if latest["transformed_images"] and len(latest["transformed_images"]) > 0:
                 img, error = safe_open_image(latest["transformed_images"][0])
                 if img:

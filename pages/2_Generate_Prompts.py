@@ -11,7 +11,7 @@ from typing import Dict
 load_dotenv()
 
 st.set_page_config(
-    page_title="Generate Cluster Prompts",
+    page_title="Generate Urban Future Prompts",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -291,5 +291,5 @@ else:
 
         # Navigation suggestion
         st.info(
-            "Now that you have generated prompts, you can move on to the 'Urban Design Generator' page in the sidebar."
+            "Now that you have generated prompts, you can move on to the 'Speculative Urban Future Generator' page in the sidebar."
         )

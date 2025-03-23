@@ -1,0 +1,12 @@
+[
+    {
+        "timestamp": "2025-03-23 23:20:21",
+        "heading": 0,
+        "original_image": "streetview_images/london-bruno-martins-unsplash.jpg",
+        "transformed_images": [
+            "results/urban_future/london-bruno-martins-unsplash/urban_future_london-bruno-martins-unsplash_1742768421.png"
+        ],
+        "prompt": "Transform the urban photograph into a cyberpunk Neo-Seoul nightscape in 2144. Emphasize high-tech architecture with a fusion of Art Deco and industrial influences. Incorporate neon signs, electronic interfaces, and digital billboards. Populate the skyline with advanced skyscrapers and flying vehicles. Highlight neon lighting and holographic displays to create a bustling, moody, and dystopian atmosphere. Use materials like glass, metal, and synthetic elements, reflecting a gritty and visionary industrial scene. Employ a color palette of dark tones with vibrant neon accents, capturing an ominous and technological ambiance.",
+        "prompt_name": "cluster_1"
+    }
+]

@@ -2,373 +2,373 @@
   {
     "original_path": "sample_images/Aeon_Flux/aeon_flux_1.jpg",
     "processed_path": "processed_images/Aeon_Flux/aeon_flux_1.jpg",
-    "analysis": "{\"architectural_style\":\"Organic architecture with fluid forms\",\"color_palette\":\"Warm gold and brown hues\",\"futuristic_elements\":\"Curved, flowing lines and abstract shapes\",\"dominant_materials\":\"Smooth stone or polished concrete\",\"mood\":\"Luxurious and avant-garde\",\"short_descriptive_label\":\"Futuristic organic interior\"}",
-    "timestamp": "2025-03-21T15:04:41.132671"
+    "analysis": "{\"architectural_style\":\"Organic architecture\",\"color_palette\":\"Warm earth tones\",\"futuristic_elements\":\"Fluid, wave-like structures\",\"dominant_materials\":\"Stone and concrete\",\"mood\":\"Mysterious and contemplative\",\"short_descriptive_label\":\"Organic wave-like interior\"}",
+    "timestamp": "2025-03-23T22:10:12"
   },
   {
     "original_path": "sample_images/Aeon_Flux/aeon_flux_2.jpg",
     "processed_path": "processed_images/Aeon_Flux/aeon_flux_2.jpg",
-    "analysis": "{\"architectural_style\":\"Futuristic urban design\",\"color_palette\":\"Earth tones with greens and blues\",\"futuristic_elements\":\"Circular patterns, integrated waterways, symmetrical layout\",\"dominant_materials\":\"Concrete, glass, vegetation\",\"mood\":\"Utopian and visionary\",\"short_descriptive_label\":\"Futuristic circular urban layout\"}",
-    "timestamp": "2025-03-21T15:04:45.166528"
+    "analysis": "{\"architectural_style\":\"Futurist Urban Design\",\"color_palette\":\"Earthy tones with blue and green accents\",\"futuristic_elements\":\"Geometric patterns, symmetrical layout, integrated waterways\",\"dominant_materials\":\"Concrete, glass, and vegetation\",\"mood\":\"Utopian and innovative\",\"short_descriptive_label\":\"Futuristic geometric city layout\"}",
+    "timestamp": "2025-03-23T22:10:16"
   },
   {
     "original_path": "sample_images/Aeon_Flux/aeon_flux_3.jpg",
     "processed_path": "processed_images/Aeon_Flux/aeon_flux_3.jpg",
-    "analysis": "{\"architectural_style\":\"Modern landscape architecture with urban integration\",\"color_palette\":\"Natural greens with earthy tones and muted colors\",\"futuristic_elements\":\"Integration of natural elements with urban spaces\",\"dominant_materials\":\"Concrete steps with glass railings and abundant greenery\",\"mood\":\"Harmonious blend of nature and urban life\",\"short_descriptive_label\":\"Urban green terraced steps\"}",
-    "timestamp": "2025-03-21T15:04:48.393135"
+    "analysis": "{\"architectural_style\":\"Modern with sustainable design elements\",\"color_palette\":\"Earthy tones with green accents\",\"futuristic_elements\":\"Integration of greenery with architecture\",\"dominant_materials\":\"Concrete and vegetation\",\"mood\":\"Vibrant and lively\",\"short_descriptive_label\":\"Green urban staircase\"}",
+    "timestamp": "2025-03-23T22:10:20"
   },
   {
     "original_path": "sample_images/Black_Panther/black_panther_1.jpg",
     "processed_path": "processed_images/Black_Panther/black_panther_1.jpg",
-    "analysis": "{\"architectural_style\":\"Neo-futuristic with elements of sustainability and high-tech structures\",\"color_palette\":\"Earthy tones with metallic and glassy accents\",\"futuristic_elements\":\"Flying vehicles, advanced high-rise buildings with organic shapes, extensive use of glass and landscapes integrated with architecture\",\"dominant_materials\":\"Glass, metal, and greenery\",\"mood\":\"Dynamic with a blend of serenity and awe\",\"short_descriptive_label\":\"Futuristic Urban Oasis\"}",
-    "timestamp": "2025-03-21T15:04:52.185760"
+    "analysis": "{\"architectural_style\":\"Futuristic with traditional influences\",\"color_palette\":\"Muted greens, browns, and grays\",\"futuristic_elements\":\"Hovering vehicles and advanced skyscrapers\",\"dominant_materials\":\"Metal and glass with natural integrations\",\"mood\":\"Dramatic and awe-inspiring\",\"short_descriptive_label\":\"Futuristic cityscape\"}",
+    "timestamp": "2025-03-23T22:10:24"
   },
   {
     "original_path": "sample_images/Black_Panther/black_panther_2.webp",
     "processed_path": "processed_images/Black_Panther/black_panther_2.webp",
-    "analysis": "{\"architectural_style\":\"Futuristic with elements inspired by traditional African architecture\",\"color_palette\":\"Earth tones with greens and muted metallics\",\"futuristic_elements\":\"Advanced structures, domes, and integrated greenery with technology\",\"dominant_materials\":\"Metal and natural materials such as stone and wood\",\"mood\":\"Harmonious blend of tradition and innovation\",\"short_descriptive_label\":\"Futuristic urban harmony\"}",
-    "timestamp": "2025-03-21T15:04:56.459474"
+    "analysis": "{\"architectural_style\":\"Futuristic African-inspired\",\"color_palette\":\"Earth tones with metallic accents\",\"futuristic_elements\":\"Advanced transportation systems, high-tech structures\",\"dominant_materials\":\"Metal, glass, traditional thatch roofs\",\"mood\":\"Innovative and harmonious\",\"short_descriptive_label\":\"Futuristic urban landscape\"}",
+    "timestamp": "2025-03-23T22:10:28"
   },
   {
     "original_path": "sample_images/Black_Panther/black_panther_3.webp",
     "processed_path": "processed_images/Black_Panther/black_panther_3.webp",
-    "analysis": "{\"architectural_style\":\"Futuristic urban with traditional influences\",\"color_palette\":\"Earthy tones with bright, accent colors\",\"futuristic_elements\":\"Hovercrafts, advanced transportation systems\",\"dominant_materials\":\"Metal, glass, and traditional wood elements\",\"mood\":\"Vibrant and bustling\",\"short_descriptive_label\":\"Futuristic urban market scene\"}",
-    "timestamp": "2025-03-21T15:05:00.848871"
+    "analysis": "{\"architectural_style\":\"Futuristic with traditional influences\",\"color_palette\":\"Warm earth tones with metallic accents\",\"futuristic_elements\":\"Advanced transportation systems, modern infrastructure with traditional market stalls\",\"dominant_materials\":\"Metal, concrete, wood\",\"mood\":\"Vibrant and bustling\",\"short_descriptive_label\":\"Futuristic urban market with traditional elements\"}",
+    "timestamp": "2025-03-23T22:10:34"
   },
   {
     "original_path": "sample_images/Black_Panther/black_panther_4.webp",
     "processed_path": "processed_images/Black_Panther/black_panther_4.webp",
-    "analysis": "{\"architectural_style\":\"Futuristic and Organic\",\"color_palette\":\"Earthy tones with muted greys, greens, and beige\",\"futuristic_elements\":\"Skyscrapers with curved and asymmetrical designs, integration with natural landscapes, advanced technology elements visible in structures\",\"dominant_materials\":\"Metal, glass, and stone\",\"mood\":\"Innovative and harmonious\",\"short_descriptive_label\":\"Future urban landscape with organic integration\"}",
-    "timestamp": "2025-03-21T15:05:05.977290"
+    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Earth tones with metallic shades\",\"futuristic_elements\":\"Advanced transportation systems and flying vehicles\",\"dominant_materials\":\"Metal and glass\",\"mood\":\"Futuristic and vibrant\",\"short_descriptive_label\":\"Futuristic cityscape with lush surroundings\"}",
+    "timestamp": "2025-03-23T22:10:37"
   },
   {
     "original_path": "sample_images/Black_Panther/black_panther_5.jpg",
     "processed_path": "processed_images/Black_Panther/black_panther_5.jpg",
-    "analysis": "{\"architectural_style\":\"Futuristic megastructure\",\"color_palette\":\"Muted greys and greens\",\"futuristic_elements\":\"Sleek skyscrapers with rounded edges and integrated green spaces\",\"dominant_materials\":\"Glass, steel\",\"mood\":\"Optimistic and advanced\",\"short_descriptive_label\":\"Futuristic urban skyline\"}",
-    "timestamp": "2025-03-21T15:05:09.899779"
+    "analysis": "{\"architectural_style\":\"Futuristic megacity with organic and neo-futuristic design elements\",\"color_palette\":\"Earthy tones with metallic grays and greens\",\"futuristic_elements\":\"Sleek skyscrapers with unconventional shapes, integrated greenery, and advanced urban planning\",\"dominant_materials\":\"Glass, steel, and concrete with green spaces\",\"mood\":\"Utopian and visionary\",\"short_descriptive_label\":\"Futuristic urban landscape\"}",
+    "timestamp": "2025-03-23T22:10:43"
   },
   {
     "original_path": "sample_images/Black_Panther/black_panther_6.jpg",
     "processed_path": "processed_images/Black_Panther/black_panther_6.jpg",
-    "analysis": "{\"architectural_style\":\"Futuristic eco-urban architecture\",\"color_palette\":\"Natural greens with earthy browns and grays\",\"futuristic_elements\":\"Integrated greenery, elevated pedestrian pathways, futuristic vehicles\",\"dominant_materials\":\"Glass, steel, concrete with extensive greenery\",\"mood\":\"Harmonious and progressive\",\"short_descriptive_label\":\"Eco-futuristic urban scene with greenery\"}",
-    "timestamp": "2025-03-21T15:05:14.370336"
+    "analysis": "{\"architectural_style\":\"Futuristic with organic elements\",\"color_palette\":\"Earth tones with greens and browns\",\"futuristic_elements\":\"Electric vehicles, integrated greenery, sleek building designs\",\"dominant_materials\":\"Glass, metal, and concrete\",\"mood\":\"Harmonious and forward-thinking\",\"short_descriptive_label\":\"Futuristic urban harmony\"}",
+    "timestamp": "2025-03-23T22:10:46"
   },
   {
     "original_path": "sample_images/Black_Panther/black_panther_7.jpg",
     "processed_path": "processed_images/Black_Panther/black_panther_7.jpg",
-    "analysis": "{\"architectural_style\":\"Futuristic/ecological\",\"color_palette\":\"Earth tones with shades of green and grey\",\"futuristic_elements\":\"Vertical gardens, integrated nature and architecture, sleek skyscrapers\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Harmonious and innovative\",\"short_descriptive_label\":\"Green futuristic cityscape\"}",
-    "timestamp": "2025-03-21T15:05:17.764941"
+    "analysis": "{\"architectural_style\":\"Futuristic megastructures with organic elements\",\"color_palette\":\"Earth tones with green accents and metallic grays\",\"futuristic_elements\":\"Towering skyscrapers with unconventional shapes, integrated natural elements like greenery on structures\",\"dominant_materials\":\"Glass and metal with visible greenery\",\"mood\":\"Utopian and harmonious with nature\",\"short_descriptive_label\":\"Eco-futuristic urban landscape\"}",
+    "timestamp": "2025-03-23T22:10:51"
   },
   {
     "original_path": "sample_images/Black_Panther/black_panther_8.jpg",
     "processed_path": "processed_images/Black_Panther/black_panther_8.jpg",
-    "analysis": "{\"architectural_style\":\"Futuristic with a blend of organic forms and advanced technology\",\"color_palette\":\"Earth tones with metallic accents\",\"futuristic_elements\":\"High-tech skyscrapers with complex structures and integrated greenery\",\"dominant_materials\":\"Metal, glass, and synthetic materials\",\"mood\":\"Visionary and progressive\",\"short_descriptive_label\":\"Futuristic cityscape with organic architecture\"}",
-    "timestamp": "2025-03-21T15:05:22.110406"
-  },
-  {
-    "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_1.png",
-    "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_1.png",
-    "analysis": "{\"architectural_style\":\"Modern\",\"color_palette\":\"Dark with subtle blue highlights\",\"futuristic_elements\":\"Minimal visible lighting suggests advanced energy efficiency\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Mysterious and somber\",\"short_descriptive_label\":\"Dark urban skyline\"}",
-    "timestamp": "2025-03-21T15:05:25.802385"
+    "analysis": "{\"architectural_style\":\"Futuristic and organic\",\"color_palette\":\"Earth tones with metallic accents\",\"futuristic_elements\":\"Sleek skyscrapers with unconventional shapes and integrated greenery\",\"dominant_materials\":\"Metal and glass with natural elements\",\"mood\":\"Innovative and harmonious\",\"short_descriptive_label\":\"Futuristic urban oasis\"}",
+    "timestamp": "2025-03-23T22:10:55"
   },
   {
     "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_10.jpg",
     "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_10.jpg",
-    "analysis": "{\"architectural_style\":\"Cyberpunk\",\"color_palette\":\"Dark tones with neon accents\",\"futuristic_elements\":\"Neon lights, technologically advanced designs, high-density urban environment\",\"dominant_materials\":\"Metal and glass\",\"mood\":\"Mysterious and high-tech\",\"short_descriptive_label\":\"Futuristic Cyberpunk Street Scene\"}",
-    "timestamp": "2025-03-21T15:05:29.742462"
+    "analysis": "{\"architectural_style\":\"Cyberpunk\",\"color_palette\":\"Dark with neon highlights\",\"futuristic_elements\":\"High-tech architecture, neon lighting, advanced technology displays\",\"dominant_materials\":\"Metal, glass, synthetic materials\",\"mood\":\"Gritty and dystopian\",\"short_descriptive_label\":\"Cyberpunk urban scene\"}",
+    "timestamp": "2025-03-23T22:10:58"
   },
   {
     "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_2.png",
     "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_2.png",
-    "analysis": "{\"architectural_style\":\"Brutalist with a dystopian futuristic theme\",\"color_palette\":\"Dark tones with neon accents\",\"futuristic_elements\":\"Neon lighting, high-density layout, and towering skyscrapers\",\"dominant_materials\":\"Concrete and metal\",\"mood\":\"Foreboding and mysterious\",\"short_descriptive_label\":\"Dystopian urban nightscape\"}",
-    "timestamp": "2025-03-21T15:05:33.463956"
+    "analysis": "{\"architectural_style\":\"Futuristic/Science Fiction\",\"color_palette\":\"Dark with neon highlights\",\"futuristic_elements\":\"Neon lights, high-density urban sprawl\",\"dominant_materials\":\"Concrete and metal\",\"mood\":\"Bleak and dystopian\",\"short_descriptive_label\":\"Dystopian night cityscape\"}",
+    "timestamp": "2025-03-23T22:11:01"
   },
   {
     "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_3.png",
     "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_3.png",
-    "analysis": "{\"architectural_style\":\"Cyberpunk\",\"color_palette\":\"Dark with neon accents\",\"futuristic_elements\":\"Neon lights, holographic advertisements, high-rise buildings\",\"dominant_materials\":\"Glass, metal\",\"mood\":\"Dark and mysterious\",\"short_descriptive_label\":\"cyberpunk_cityscape\"}",
-    "timestamp": "2025-03-21T15:05:37.099873"
-  },
-  {
-    "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_4.png",
-    "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_4.png",
-    "analysis": "{\"architectural_style\":\"Brutalist/industrial\",\"color_palette\":\"Dark, muted tones with grays and blues\",\"futuristic_elements\":\"Uniformed personnel with ambiguous but advanced clothing, potentially suggestive of a controlled or surveillance-heavy environment\",\"dominant_materials\":\"Concrete, metal, synthetic materials\",\"mood\":\"Somber, dystopian\",\"short_descriptive_label\":\"dystopian urban corridor\"}",
-    "timestamp": "2025-03-21T15:05:41.831298"
+    "analysis": "{\"architectural_style\":\"Cyberpunk\",\"color_palette\":\"Dark tones with neon accents\",\"futuristic_elements\":\"Neon lights, holographic displays, dense skyline\",\"dominant_materials\":\"Glass, steel, concrete\",\"mood\":\"Moody, dystopian, technological\",\"short_descriptive_label\":\"Cyberpunk urban nightscape\"}",
+    "timestamp": "2025-03-23T22:11:04"
   },
   {
     "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_5.png",
     "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_5.png",
-    "analysis": "{\"architectural_style\":\"Neo-noir urban\",\"color_palette\":\"Dark, muted tones with neon accents\",\"futuristic_elements\":\"Neon lighting, hazy atmosphere\",\"dominant_materials\":\"Concrete, glass\",\"mood\":\"Mysterious, atmospheric\",\"short_descriptive_label\":\"Neo-noir urban scene\"}",
-    "timestamp": "2025-03-21T15:05:46.135130"
-  },
-  {
-    "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_6.png",
-    "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_6.png",
-    "analysis": "{\"architectural_style\":\"Cyberpunk\",\"color_palette\":\"Neon with dark undertones\",\"futuristic_elements\":\"Holographic signs, neon lighting, high-tech gadgets, urban density\",\"dominant_materials\":\"Metal, glass, plastic\",\"mood\":\"Gritty and vibrant\",\"short_descriptive_label\":\"Cyberpunk urban night scene\"}",
-    "timestamp": "2025-03-21T15:05:50.023974"
+    "analysis": "{\"architectural_style\":\"Neo-noir\",\"color_palette\":\"Dark with neon highlights\",\"futuristic_elements\":\"Neon signage and foggy atmosphere\",\"dominant_materials\":\"Metal and glass\",\"mood\":\"Mysterious and atmospheric\",\"short_descriptive_label\":\"Neo-noir urban night scene\"}",
+    "timestamp": "2025-03-23T22:11:08"
   },
   {
     "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_7.png",
     "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_7.png",
-    "analysis": "{ \"architectural_style\": \"Cyberpunk\", \"color_palette\": \"Dark tones with neon highlights\", \"futuristic_elements\": \"Holographic advertisements and dense, multi-layered urban structures\", \"dominant_materials\": \"Metal and glass\", \"mood\": \"Mysterious and bustling\", \"short_descriptive_label\": \"Cyberpunk Urban Scene\" }",
-    "timestamp": "2025-03-21T15:05:54.336490"
+    "analysis": "{\"architectural_style\":\"Neo-futuristic urban\",\"color_palette\":\"Dark tones with neon accents\",\"futuristic_elements\":\"Holographic displays, advanced technology\",\"dominant_materials\":\"Metal, glass\",\"mood\":\"Dystopian, mysterious\",\"short_descriptive_label\":\"Holographic Neo-futurism\"}",
+    "timestamp": "2025-03-23T22:11:11"
   },
   {
     "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_8.png",
     "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_8.png",
-    "analysis": "{\"architectural_style\":\"Neo-futuristic\",\"color_palette\":\"Dark with neon accents\",\"futuristic_elements\":\"Neon signs, digital displays\",\"dominant_materials\":\"Metal, glass\",\"mood\":\"Neon dystopian\",\"short_descriptive_label\":\"Neon-dystopian street market\"}",
-    "timestamp": "2025-03-21T15:05:57.942640"
-  },
-  {
-    "original_path": "sample_images/Blade_Runner_2049/blade_runner_2049_9.png",
-    "processed_path": "processed_images/Blade_Runner_2049/blade_runner_2049_9.png",
-    "analysis": "{\"architectural_style\":\"Modern minimalism\",\"color_palette\":\"Monochromatic green tones\",\"futuristic_elements\":\"Solar energy field with advanced technology\",\"dominant_materials\":\"Metal and concrete\",\"mood\":\"Calm and futuristic\",\"short_descriptive_label\":\"Futuristic solar landscape\"}",
-    "timestamp": "2025-03-21T15:06:03.131087"
+    "analysis": "{\"architectural_style\":\"Cyberpunk\",\"color_palette\":\"Dark tones with neon highlights\",\"futuristic_elements\":\"Neon signs, electronic interfaces\",\"dominant_materials\":\"Metal, glass, synthetic materials\",\"mood\":\"Gritty, bustling\",\"short_descriptive_label\":\"Cyberpunk urban market\"}",
+    "timestamp": "2025-03-23T22:11:14"
   },
   {
     "original_path": "sample_images/Cloud_Atlas/cloud_atlas_1.png",
     "processed_path": "processed_images/Cloud_Atlas/cloud_atlas_1.png",
-    "analysis": "{\"architectural_style\":\"Futuristic Cyberpunk\",\"color_palette\":\"Dark tones with neon blues and greens\",\"futuristic_elements\":\"Holographic displays, elevated highways, high-rise buildings with integrated technology\",\"dominant_materials\":\"Glass and metal\",\"mood\":\"Mysterious and technologically advanced\",\"short_descriptive_label\":\"Cyberpunk cityscape at night\"}",
-    "timestamp": "2025-03-21T15:06:07.403158"
+    "analysis": "{\"architectural_style\":\"Futuristic neo-noir\",\"color_palette\":\"Dark tones with neon highlights\",\"futuristic_elements\":\"High-tech skyscrapers, digital signage, advanced transportation systems\",\"dominant_materials\":\"Glass, steel, illuminated surfaces\",\"mood\":\"Mysterious and high-tech\",\"short_descriptive_label\":\"Cyberpunk urban skyline\"}",
+    "timestamp": "2025-03-23T22:11:18"
   },
   {
     "original_path": "sample_images/Cloud_Atlas/cloud_atlas_2.png",
     "processed_path": "processed_images/Cloud_Atlas/cloud_atlas_2.png",
-    "analysis": "{\"architectural_style\":\"Futuristic megastructure design\",\"color_palette\":\"Dark with metallic and neon accents\",\"futuristic_elements\":\"Hexagonal facade and floating structures\",\"dominant_materials\":\"Metal and glass\",\"mood\":\"Dystopian and advanced\",\"short_descriptive_label\":\"Futuristic urban skyline\"}",
-    "timestamp": "2025-03-21T15:06:11.322065"
+    "analysis": "{\"architectural_style\":\"Futuristic megastructure\",\"color_palette\":\"Muted earth tones and metallics\",\"futuristic_elements\":\"High-rise buildings, geometric patterns, advanced lighting\",\"dominant_materials\":\"Metal, glass\",\"mood\":\"Futuristic and bustling\",\"short_descriptive_label\":\"Futuristic urban landscape\"}",
+    "timestamp": "2025-03-23T22:11:22"
   },
   {
     "original_path": "sample_images/Cloud_Atlas/cloud_atlas_3.png",
     "processed_path": "processed_images/Cloud_Atlas/cloud_atlas_3.png",
-    "analysis": "{\"architectural_style\":\"Futuristic urban\",\"color_palette\":\"Dark tones with neon blue and green highlights\",\"futuristic_elements\":\"Flying vehicles, holographic billboards, sleek skyscrapers\",\"dominant_materials\":\"Glass, metal\",\"mood\":\"Dynamic and vibrant\",\"short_descriptive_label\":\"Futuristic cityscape with vibrant energy\"}",
-    "timestamp": "2025-03-21T15:06:15.823680"
-  },
-  {
-    "original_path": "sample_images/Cloud_Atlas/cloud_atlas_4.png",
-    "processed_path": "processed_images/Cloud_Atlas/cloud_atlas_4.png",
-    "analysis": "{\"architectural_style\":\"Futuristic Metropolis\",\"color_palette\":\"Neon blues with contrasting dark tones\",\"futuristic_elements\":\"Hover vehicles, neon lighting, digital screens\",\"dominant_materials\":\"Glass, steel, and digital displays\",\"mood\":\"Dynamic and high-tech\",\"short_descriptive_label\":\"Futuristic urban scene\"}",
-    "timestamp": "2025-03-21T15:06:19.719161"
+    "analysis": "{\"architectural_style\":\"Futuristic high-rise architecture\",\"color_palette\":\"Muted bronze, silver, and dark green\",\"futuristic_elements\":\"Vertical gardens, flying vehicles, and illuminated skyscrapers\",\"dominant_materials\":\"Glass, steel, and vegetation\",\"mood\":\"Ethereal and romantic\",\"short_descriptive_label\":\"Futuristic urban skyline with gardens\"}",
+    "timestamp": "2025-03-23T22:11:26"
   },
   {
     "original_path": "sample_images/Cloud_Atlas/cloud_atlas_5.png",
     "processed_path": "processed_images/Cloud_Atlas/cloud_atlas_5.png",
-    "analysis": "{\"architectural_style\":\"Futuristic urbanism\",\"color_palette\":\"Neon blues and dark shades\",\"futuristic_elements\":\"Flying cars, digital displays, sleek building structures, elevated transit pathways\",\"dominant_materials\":\"Glass and metal\",\"mood\":\"Futuristic and dynamic\",\"short_descriptive_label\":\"Futuristic cityscape with flying vehicles\"}",
-    "timestamp": "2025-03-21T15:06:23.319260"
+    "analysis": "{\"architectural_style\":\"Futuristic metropolis\",\"color_palette\":\"Neon blues and metallics\",\"futuristic_elements\":\"Flying vehicles, illuminated cityscape\",\"dominant_materials\":\"Glass and metal\",\"mood\":\"Dynamic and high-tech\",\"short_descriptive_label\":\"Futuristic urban sci-fi scene\"}",
+    "timestamp": "2025-03-23T22:11:29"
   },
   {
     "original_path": "sample_images/Cloud_Atlas/cloud_atlas_6.png",
     "processed_path": "processed_images/Cloud_Atlas/cloud_atlas_6.png",
-    "analysis": "{ \"architectural_style\": \"Cyberpunk\", \"color_palette\": \"Dark with neon accents\", \"futuristic_elements\": \"Advanced skyscrapers, flying vehicles, digital signage\", \"dominant_materials\": \"Glass, metal, neon elements\", \"mood\": \"Dystopian and technologically advanced\", \"short_descriptive_label\": \"Cyberpunk urban landscape\" }",
-    "timestamp": "2025-03-21T15:06:27.776270"
+    "analysis": "{\"architectural_style\":\"Cyberpunk\",\"color_palette\":\"Dark, with neon accents\",\"futuristic_elements\":\"Advanced skyscrapers, digital billboards, flying vehicles\",\"dominant_materials\":\"Glass, metal, neon lighting\",\"mood\":\"Moody and dystopian\",\"short_descriptive_label\":\"Cyberpunk Neo-Seoul 2144\"}",
+    "timestamp": "2025-03-23T22:11:33"
+  },
+  {
+    "original_path": "sample_images/Divergent_series/divergent_series_1.jpg",
+    "processed_path": "processed_images/Divergent_series/divergent_series_1.jpg",
+    "analysis": "{\"architectural_style\":\"Futuristic urban design\",\"color_palette\":\"Earthy tones with metallic highlights\",\"futuristic_elements\":\"Massive circular structures, advanced technology, and vertical layering\",\"dominant_materials\":\"Glass and metal\",\"mood\":\"Futuristic and awe-inspiring\",\"short_descriptive_label\":\"Futuristic circular cityscape\"}",
+    "timestamp": "2025-03-23T22:11:37"
+  },
+  {
+    "original_path": "sample_images/Divergent_series/divergent_series_2.jpg",
+    "processed_path": "processed_images/Divergent_series/divergent_series_2.jpg",
+    "analysis": "{\"architectural_style\":\"Modern with Futuristic Elements\",\"color_palette\":\"Muted with Grays and Blues\",\"futuristic_elements\":\"Tall, sleek skyscraper with advanced materials\",\"dominant_materials\":\"Glass and Steel\",\"mood\":\"Futuristic and Somber\",\"short_descriptive_label\":\"Futuristic Urban Skyline\"}",
+    "timestamp": "2025-03-23T22:11:41"
+  },
+  {
+    "original_path": "sample_images/Divergent_series/divergent_series_3.jpg",
+    "processed_path": "processed_images/Divergent_series/divergent_series_3.jpg",
+    "analysis": "{\"architectural_style\":\"Post-apocalyptic urban\",\"color_palette\":\"Muted greens, grays, and browns\",\"futuristic_elements\":\"Overgrown infrastructure, bridges suggest collapse and adaptation\",\"dominant_materials\":\"Concrete, steel, glass\",\"mood\":\"Desolate and overgrown\",\"short_descriptive_label\":\"Overgrown urban decay with ruins\"}",
+    "timestamp": "2025-03-23T22:11:45"
+  },
+  {
+    "original_path": "sample_images/Divergent_series/divergent_series_4.jpg",
+    "processed_path": "processed_images/Divergent_series/divergent_series_4.jpg",
+    "analysis": "{\"architectural_style\":\"Futuristic Urban\",\"color_palette\":\"Earth tones and greys\",\"futuristic_elements\":\"High-tech skyscrapers, integrated greenery\",\"dominant_materials\":\"Glass, steel, concrete\",\"mood\":\"Post-apocalyptic and serene\",\"short_descriptive_label\":\"Futuristic urban decay\"}",
+    "timestamp": "2025-03-23T22:11:48"
+  },
+  {
+    "original_path": "sample_images/Divergent_series/divergent_series_5.jpg",
+    "processed_path": "processed_images/Divergent_series/divergent_series_5.jpg",
+    "analysis": "{\"architectural_style\":\"Futuristic with organic and innovative structural designs\",\"color_palette\":\"Earth tones with shades of brown and green\",\"futuristic_elements\":\"Vertical, spiraling structures with hovering vehicles\",\"dominant_materials\":\"Metal and glass with a smooth finish\",\"mood\":\"Otherworldly and speculative\",\"short_descriptive_label\":\"Futuristic spiraling tower in arid landscape\"}",
+    "timestamp": "2025-03-23T22:11:52"
+  },
+  {
+    "original_path": "sample_images/Divergent_series/divergent_series_6.jpg",
+    "processed_path": "processed_images/Divergent_series/divergent_series_6.jpg",
+    "analysis": "{\"architectural_style\":\"Modern and high-rise\",\"color_palette\":\"Muted tones with green and brown\",\"futuristic_elements\":\"Tall skyscrapers with sleek designs\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Serene yet slightly dystopian\",\"short_descriptive_label\":\"Modern urban skyline with green spaces\"}",
+    "timestamp": "2025-03-23T22:11:56"
   },
   {
     "original_path": "sample_images/Her/her_1.png",
     "processed_path": "processed_images/Her/her_1.png",
-    "analysis": "{\"architectural_style\":\"Modern minimalism with organic curves\",\"color_palette\":\"Neutral tones with warm lighting\",\"futuristic_elements\":\"Interactive digital signage and subtle integrated lighting\",\"dominant_materials\":\"Concrete and glass\",\"mood\":\"Calm and contemplative\",\"short_descriptive_label\":\"Futuristic minimalist transit hub\"}",
-    "timestamp": "2025-03-21T15:06:31.763070"
+    "analysis": "{\"architectural_style\":\"Modernist\",\"color_palette\":\"Muted with beige and gray tones\",\"futuristic_elements\":\"Minimalistic design with soft lighting\",\"dominant_materials\":\"Smooth stone or concrete\",\"mood\":\"Contemplative and subdued\",\"short_descriptive_label\":\"Futuristic modern interior\"}",
+    "timestamp": "2025-03-23T22:12:00"
   },
   {
     "original_path": "sample_images/Her/her_10.png",
     "processed_path": "processed_images/Her/her_10.png",
-    "analysis": "{\"architectural_style\":\"Contemporary high-rise with elements of international style\",\"color_palette\":\"Muted blues and grays\",\"futuristic_elements\":\"Skyscrapers with sleek lines and extensive use of glass\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Modern and atmospheric, with a slightly dystopian feel\",\"short_descriptive_label\":\"Contemporary urban skyline with pedestrians\"}",
-    "timestamp": "2025-03-21T15:06:35.887941"
+    "analysis": "{\"architectural_style\":\"Contemporary high-rise\",\"color_palette\":\"Cool, muted grays and blues\",\"futuristic_elements\":\"Tall skyscrapers with sleek designs\",\"dominant_materials\":\"Glass, steel\",\"mood\":\"Melancholic, introspective\",\"short_descriptive_label\":\"Modern urban skyline at dusk\"}",
+    "timestamp": "2025-03-23T22:12:04"
   },
   {
     "original_path": "sample_images/Her/her_2.png",
     "processed_path": "processed_images/Her/her_2.png",
-    "analysis": "{\"architectural_style\":\"Brutalism\",\"color_palette\":\"Muted earth tones and grays\",\"futuristic_elements\":\"Large digital displays, minimalist design\",\"dominant_materials\":\"Concrete\",\"mood\":\"Contemporary and introspective\",\"short_descriptive_label\":\"Interactive concrete hall with digital screen\"}",
-    "timestamp": "2025-03-21T15:06:39.789387"
+    "analysis": "{\"architectural_style\":\"Contemporary\",\"color_palette\":\"Warm earth tones with accents of light from the screen\",\"futuristic_elements\":\"Minimalist design, large integrated digital screen\",\"dominant_materials\":\"Concrete, metal\",\"mood\":\"Intriguing and immersive\",\"short_descriptive_label\":\"Contemporary immersive space\"}",
+    "timestamp": "2025-03-23T22:12:08"
   },
   {
     "original_path": "sample_images/Her/her_3.png",
     "processed_path": "processed_images/Her/her_3.png",
-    "analysis": "{\"architectural_style\":\"Contemporary High-rise\",\"color_palette\":\"Warm sepia tones\",\"futuristic_elements\":\"Tall skyscrapers and dense skyline\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Calm and hazy\",\"short_descriptive_label\":\"Sepia urban skyline\"}",
-    "timestamp": "2025-03-21T15:06:44.208698"
+    "analysis": "{\"architectural_style\":\"Contemporary high-rise\",\"color_palette\":\"Warm, sepia-toned\",\"futuristic_elements\":\"Dense skyline with varied skyscraper designs\",\"dominant_materials\":\"Glass, steel\",\"mood\":\"Hazy, urban\",\"short_descriptive_label\":\"Sepia urban skyline with high-rises\"}",
+    "timestamp": "2025-03-23T22:12:11"
   },
   {
     "original_path": "sample_images/Her/her_4.png",
     "processed_path": "processed_images/Her/her_4.png",
-    "analysis": "{\"architectural_style\":\"Contemporary with elements of modernism\",\"color_palette\":\"Muted tones with a sepia-like overlay\",\"futuristic_elements\":\"Sleek high-rise buildings and prominent glass facades\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Hazy and reflective\",\"short_descriptive_label\":\"Contemporary Urban Skyline\"}",
-    "timestamp": "2025-03-21T15:06:48.016983"
+    "analysis": "{\"architectural_style\":\"Contemporary urban skyline\",\"color_palette\":\"Muted beige and grey tones\",\"futuristic_elements\":\"High-tech steel frameworks\",\"dominant_materials\":\"Glass, steel, and concrete\",\"mood\":\"Hazy and subdued\",\"short_descriptive_label\":\"Contemporary urban skyline with haze\"}",
+    "timestamp": "2025-03-23T22:12:15"
   },
   {
     "original_path": "sample_images/Her/her_5.png",
     "processed_path": "processed_images/Her/her_5.png",
-    "analysis": "{\"architectural_style\":\"Modernist\",\"color_palette\":\"Warm browns and soft beige hues\",\"futuristic_elements\":\"Minimalist skyline with high-rise buildings and sleek lines\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Reflective and serene\",\"short_descriptive_label\":\"Modern urban skyline with warm tones\"}",
-    "timestamp": "2025-03-21T15:06:52.135703"
+    "analysis": "{\"architectural_style\":\"Contemporary\",\"color_palette\":\"Warm, sepia tones\",\"futuristic_elements\":\"High-rise buildings, glass facades\",\"dominant_materials\":\"Glass, steel\",\"mood\":\"Reflective, melancholic\",\"short_descriptive_label\":\"Urban Skyline at Dusk\"}",
+    "timestamp": "2025-03-23T22:12:18"
   },
   {
     "original_path": "sample_images/Her/her_6.png",
     "processed_path": "processed_images/Her/her_6.png",
-    "analysis": "{\"architectural_style\":\"Contemporary skyscraper architecture\",\"color_palette\":\"Muted earth tones with shades of gray and tan\",\"futuristic_elements\":\"Sleek glass facades and modern urban walkway\",\"dominant_materials\":\"Glass, steel, and concrete\",\"mood\":\"Hazy and bustling urban\",\"short_descriptive_label\":\"Modern urban skyline with haze\"}",
-    "timestamp": "2025-03-21T15:06:56.328378"
+    "analysis": "{\"architectural_style\":\"Contemporary skyscrapers\",\"color_palette\":\"Warm beige and grey tones\",\"futuristic_elements\":\"Elevated walkways and sleek glass facades\",\"dominant_materials\":\"Glass and metal\",\"mood\":\"Muted and contemplative\",\"short_descriptive_label\":\"Modern urban skyline\"}",
+    "timestamp": "2025-03-23T22:12:22"
   },
   {
     "original_path": "sample_images/Her/her_7.png",
     "processed_path": "processed_images/Her/her_7.png",
-    "analysis": "{\"architectural_style\":\"Contemporary urban with modern minimalism\",\"color_palette\":\"Earthy greens, muted browns, and natural hues\",\"futuristic_elements\":\"Streamlined architecture with large smooth surfaces\",\"dominant_materials\":\"Glass, concrete, and steel\",\"mood\":\"Serene and peaceful\",\"short_descriptive_label\":\"Urban garden with modern facade\"}",
-    "timestamp": "2025-03-21T15:07:02.114516"
+    "analysis": "{\"architectural_style\":\"Contemporary minimalism\",\"color_palette\":\"Earth tones and greens\",\"futuristic_elements\":\"None\",\"dominant_materials\":\"Glass and concrete\",\"mood\":\"Tranquil and sophisticated\",\"short_descriptive_label\":\"Urban garden dining\"}",
+    "timestamp": "2025-03-23T22:12:26"
   },
   {
     "original_path": "sample_images/Her/her_8.png",
     "processed_path": "processed_images/Her/her_8.png",
-    "analysis": "{\"architectural_style\":\"Contemporary public transport station\",\"color_palette\":\"Muted tones with greys and soft whites\",\"futuristic_elements\":\"High-speed train design\",\"dominant_materials\":\"Concrete and glass\",\"mood\":\"Calm and modern\",\"short_descriptive_label\":\"Modern train station with futuristic elements\"}",
-    "timestamp": "2025-03-21T15:07:06.203792"
+    "analysis": "{\"architectural_style\":\"Contemporary transport infrastructure\",\"color_palette\":\"Muted greys with warm lighting\",\"futuristic_elements\":\"Streamlined train design and modern signage\",\"dominant_materials\":\"Steel, glass, and concrete\",\"mood\":\"Calm and reflective\",\"short_descriptive_label\":\"Modern train station scene\"}",
+    "timestamp": "2025-03-23T22:12:30"
   },
   {
     "original_path": "sample_images/Her/her_9.png",
     "processed_path": "processed_images/Her/her_9.png",
-    "analysis": "{\"architectural_style\":\"Contemporary High-Rise\",\"color_palette\":\"Muted grays and browns with a hazy atmosphere\",\"futuristic_elements\":\"Tall skyscrapers with modern glass facades and sleek designs\",\"dominant_materials\":\"Glass, steel\",\"mood\":\"Moody and industrial\",\"short_descriptive_label\":\"Hazy Contemporary Urban Skyline\"}",
-    "timestamp": "2025-03-21T15:07:10.466077"
+    "analysis": "{\"architectural_style\":\"Modern skyscraper architecture\",\"color_palette\":\"Muted grays and browns\",\"futuristic_elements\":\"Skyscrapers with sleek, vertical lines and unique tops\",\"dominant_materials\":\"Glass, steel\",\"mood\":\"Hazy and subdued\",\"short_descriptive_label\":\"Hazy modern skyline\"}",
+    "timestamp": "2025-03-23T22:12:33"
   },
   {
     "original_path": "sample_images/Hunger_Games/hunger_games_1.jpg",
     "processed_path": "processed_images/Hunger_Games/hunger_games_1.jpg",
-    "analysis": "{\"architectural_style\":\"Futuristic and Modernist\",\"color_palette\":\"Neutral tones with blue and green accents\",\"futuristic_elements\":\"Advanced transportation systems, high-tech building designs\",\"dominant_materials\":\"Glass, steel, and concrete\",\"mood\":\"Optimistic and visionary\",\"short_descriptive_label\":\"Futuristic urban landscape\"}",
-    "timestamp": "2025-03-21T15:07:14.600885"
+    "analysis": "{\"architectural_style\":\"Neoclassical Futurism\",\"color_palette\":\"Muted grays, blues, and greens\",\"futuristic_elements\":\"Sleek, uniform high-rise buildings with modern geometric designs\",\"dominant_materials\":\"Glass, steel, and concrete\",\"mood\":\"Monumental and structured\",\"short_descriptive_label\":\"Futuristic Monumental Cityscape\"}",
+    "timestamp": "2025-03-23T22:12:37"
   },
   {
     "original_path": "sample_images/Hunger_Games/hunger_games_2.jpg",
     "processed_path": "processed_images/Hunger_Games/hunger_games_2.jpg",
-    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Cool tones with pops of bright colors\",\"futuristic_elements\":\"Sweeping curves, large glass panels, advanced materials\",\"dominant_materials\":\"Glass, metal, concrete\",\"mood\":\"Forward-thinking and innovative\",\"short_descriptive_label\":\"Futuristic Urban Transit Hub\"}",
-    "timestamp": "2025-03-21T15:07:18.595078"
+    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Bright with pastel accents\",\"futuristic_elements\":\"Sleek arches, transparent ceiling, advanced materials\",\"dominant_materials\":\"Glass and metallic surfaces\",\"mood\":\"Energetic and vibrant\",\"short_descriptive_label\":\"futuristic public space\"}",
+    "timestamp": "2025-03-23T22:12:40"
   },
   {
     "original_path": "sample_images/Hunger_Games/hunger_games_3.jpg",
     "processed_path": "processed_images/Hunger_Games/hunger_games_3.jpg",
-    "analysis": "{\"architectural_style\":\"Neoclassical with modern influences\",\"color_palette\":\"Grey, beige, dark green, and touches of metallic\",\"futuristic_elements\":\"Massive scale structures, integrated transport systems, and large digital displays\",\"dominant_materials\":\"Stone, glass, and metal\",\"mood\":\"Formal and grand\",\"short_descriptive_label\":\"Grand Neoclassical Urban Plaza\"}",
-    "timestamp": "2025-03-21T15:07:22.632776"
+    "analysis": "{\"architectural_style\":\"Neoclassical with Brutalist influences\",\"color_palette\":\"Muted greys and whites with hints of gold\",\"futuristic_elements\":\"Monumental scale and advanced urban planning\",\"dominant_materials\":\"Concrete and stone\",\"mood\":\"Authoritative and grand\",\"short_descriptive_label\":\"neoclassical-brutalist urban landscape\"}",
+    "timestamp": "2025-03-23T22:12:44"
+  },
+  {
+    "original_path": "sample_images/Hunger_Games/hunger_games_4.jpg",
+    "processed_path": "processed_images/Hunger_Games/hunger_games_4.jpg",
+    "analysis": "{\"architectural_style\":\"Futuristic Urban\",\"color_palette\":\"Dark with warm golden tones\",\"futuristic_elements\":\"Monolithic structures, expansive layout\",\"dominant_materials\":\"Concrete and glass\",\"mood\":\"Dystopian and dramatic\",\"short_descriptive_label\":\"Futuristic Urban Dystopia\"}",
+    "timestamp": "2025-03-23T22:12:49"
   },
   {
     "original_path": "sample_images/Metropolis/metropolis_1.png",
     "processed_path": "processed_images/Metropolis/metropolis_1.png",
-    "analysis": "{\"architectural_style\":\"Art Deco\",\"color_palette\":\"Monochromatic grayscale\",\"futuristic_elements\":\"Geometric shapes and streamlined forms\",\"dominant_materials\":\"Glass, steel, concrete\",\"mood\":\"Nostalgic and retro-futuristic\",\"short_descriptive_label\":\"Retro-futuristic urban skyline\"}",
-    "timestamp": "2025-03-21T15:07:26.859400"
+    "analysis": "{\"architectural_style\":\"Futurist/Art Deco\",\"color_palette\":\"Monochrome grayscale\",\"futuristic_elements\":\"Streamlined forms and geometric patterns\",\"dominant_materials\":\"Concrete and glass\",\"mood\":\"Visionary and industrial\",\"short_descriptive_label\":\"Futuristic urban cityscape\"}",
+    "timestamp": "2025-03-23T22:12:54"
   },
   {
     "original_path": "sample_images/Metropolis/metropolis_2.png",
     "processed_path": "processed_images/Metropolis/metropolis_2.png",
-    "analysis": "{\"architectural_style\":\"Futuristic Megastructure\",\"color_palette\":\"Monochrome, grayscale\",\"futuristic_elements\":\"Floating platforms, interconnected skyscrapers\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Dystopian, surreal\",\"short_descriptive_label\":\"Dystopian Urban Megastructure\"}",
-    "timestamp": "2025-03-21T15:07:34.675636"
+    "analysis": "{\"architectural_style\":\"Brutalist with Futuristic Influences\",\"color_palette\":\"Monochrome, greyscale\",\"futuristic_elements\":\"Floating or cantilevered structures, dense urban layering\",\"dominant_materials\":\"Concrete and glass\",\"mood\":\"Ominous and surreal\",\"short_descriptive_label\":\"Futuristic Brutalist Urban Scene\"}",
+    "timestamp": "2025-03-23T22:13:00"
   },
   {
     "original_path": "sample_images/Metropolis/metropolis_3.png",
     "processed_path": "processed_images/Metropolis/metropolis_3.png",
-    "analysis": "{\"architectural_style\":\"Modernist\",\"color_palette\":\"Monochrome, greyscale\",\"futuristic_elements\":\"Skyscrapers with sleek geometric lines\",\"dominant_materials\":\"Concrete, steel\",\"mood\":\"Industrial, dystopian\",\"short_descriptive_label\":\"Monochrome urban skyscraper scene\"}",
-    "timestamp": "2025-03-21T15:07:38.673093"
+    "analysis": "{\"architectural_style\":\"Modernist\",\"color_palette\":\"Monochrome (black and white)\",\"futuristic_elements\":\"The setting gives a sense of a highly urbanized and densely packed environment, reminiscent of urban utopias depicted in early 20th-century science fiction\",\"dominant_materials\":\"Concrete and glass\",\"mood\":\"Dystopian and imposing\",\"short_descriptive_label\":\"Monochrome urban dystopia\"}",
+    "timestamp": "2025-03-23T22:13:04"
   },
   {
     "original_path": "sample_images/Metropolis/metropolis_4.png",
     "processed_path": "processed_images/Metropolis/metropolis_4.png",
-    "analysis": "{\"architectural_style\":\"Brutalist\",\"color_palette\":\"Monochrome, predominantly grays and blacks\",\"futuristic_elements\":\"Industrial machinery; steam and smoke create a mechanical, futuristic vibe\",\"dominant_materials\":\"Concrete and steel\",\"mood\":\"Industrial and dystopian\",\"short_descriptive_label\":\"Dystopian industrial structure\"}",
-    "timestamp": "2025-03-21T15:07:42.568959"
-  },
-  {
-    "original_path": "sample_images/Metropolis/metropolis_5.png",
-    "processed_path": "processed_images/Metropolis/metropolis_5.png",
-    "analysis": "{\"architectural_style\":\"Art Deco with Industrial influences\",\"color_palette\":\"Monochrome, black and grey tones\",\"futuristic_elements\":\"Industrial machinery, exaggerated scale\",\"dominant_materials\":\"Metal, concrete\",\"mood\":\"Dystopian, imposing\",\"short_descriptive_label\":\"Industrial dystopia scene\"}",
-    "timestamp": "2025-03-21T15:07:46.245495"
-  },
-  {
-    "original_path": "sample_images/Metropolis/metropolis_6.png",
-    "processed_path": "processed_images/Metropolis/metropolis_6.png",
-    "analysis": "{\"architectural_style\":\"Brutalist Art Deco\",\"color_palette\":\"Monochrome black and white\",\"futuristic_elements\":\"Colossal scale, surreal statues\",\"dominant_materials\":\"Concrete, Stone\",\"mood\":\"Dystopian and monumental\",\"short_descriptive_label\":\"Brutalist Futuristic Monument\"}",
-    "timestamp": "2025-03-21T15:07:50.030017"
+    "analysis": "{\"architectural_style\":\"Art Deco with industrial influences\",\"color_palette\":\"Monochrome (grayscale)\",\"futuristic_elements\":\"Massive machinery and steam-punk aesthetic\",\"dominant_materials\":\"Metal and concrete\",\"mood\":\"Dystopian and ominous\",\"short_descriptive_label\":\"Industrial Art Deco Scene\"}",
+    "timestamp": "2025-03-23T22:13:07"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_1.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_1.png",
-    "analysis": "{\"architectural_style\":\"Futuristic megacity\",\"color_palette\":\"Metallic silver, glassy blue, and greenery\",\"futuristic_elements\":\"Hovering vehicles, extensive skybridges, advanced lighting systems\",\"dominant_materials\":\"Glass, metal, and synthetic materials\",\"mood\":\"Optimistic and forward-looking\",\"short_descriptive_label\":\"Futuristic Skyscraper Cityscape\"}",
-    "timestamp": "2025-03-21T15:07:55.225199"
+    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Metallic shades with blues and greens\",\"futuristic_elements\":\"Elevated highways, sleek vehicles, advanced building designs\",\"dominant_materials\":\"Glass, steel, and composites\",\"mood\":\"Innovative and optimistic\",\"short_descriptive_label\":\"Futuristic urban landscape\"}",
+    "timestamp": "2025-03-23T22:13:11"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_10.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_10.png",
-    "analysis": "{\"architectural_style\":\"Futuristic Transport Design\",\"color_palette\":\"Cool tones with blues, grays, and metallics\",\"futuristic_elements\":\"High-speed transportation with sleek aerodynamic design\",\"dominant_materials\":\"High-tech composite materials and metals\",\"mood\":\"Dynamic and advanced\",\"short_descriptive_label\":\"Futuristic Transport Scene\"}",
-    "timestamp": "2025-03-21T15:07:59.352145"
+    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Cool tones with metallic grays and blues\",\"futuristic_elements\":\"Sleek, aerodynamic design with advanced transit technology\",\"dominant_materials\":\"Metal and glass\",\"mood\":\"Dynamic and advanced\",\"short_descriptive_label\":\"Futuristic urban transit\"}",
+    "timestamp": "2025-03-23T22:13:14"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_11.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_11.png",
-    "analysis": "{\"architectural_style\":\"Futuristic, Neofuturism\",\"color_palette\":\"White, silver, blue\",\"futuristic_elements\":\"Floating vehicles, towering spiral structures, advanced transportation systems\",\"dominant_materials\":\"Glass, metal\",\"mood\":\"Visionary and imaginative\",\"short_descriptive_label\":\"Futuristic urban skyline\"}",
-    "timestamp": "2025-03-21T15:08:03.263295"
+    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Cool colors with blues and metallic tones\",\"futuristic_elements\":\"Flying vehicles, spiraling towers, advanced technology features\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Optimistic and visionary\",\"short_descriptive_label\":\"futuristic_blue_skyscraper_cityscape\"}",
+    "timestamp": "2025-03-23T22:13:18"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_12.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_12.png",
-    "analysis": "{\"architectural_style\":\"Futuristic megastructure\",\"color_palette\":\"Cool tones with blues, silvers, and grays\",\"futuristic_elements\":\"Flying vehicles, hyper-modern skyscrapers, integrated natural elements\",\"dominant_materials\":\"Glass, steel, and advanced composites\",\"mood\":\"Visionary and advanced\",\"short_descriptive_label\":\"Utopian futuristic urban design\"}",
-    "timestamp": "2025-03-21T15:08:08.466464"
+    "analysis": "{\"architectural_style\":\"Futuristic high-tech\",\"color_palette\":\"Metallic grays, blues, and silvers with hints of green\",\"futuristic_elements\":\"Flying vehicles, interconnected skyscrapers, advanced transportation systems\",\"dominant_materials\":\"Glass, metal, and synthetic materials\",\"mood\":\"Optimistic and advanced\",\"short_descriptive_label\":\"Futuristic urban skyline\"}",
+    "timestamp": "2025-03-23T22:13:23"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_2.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_2.png",
-    "analysis": "{\"architectural_style\":\"Futuristic and contemporary\",\"color_palette\":\"Neutral tones with shades of white, grey, and blue\",\"futuristic_elements\":\"Smooth, flowing curves and extensive use of glass and metal\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Modern and innovative\",\"short_descriptive_label\":\"Futuristic urban walkway\"}",
-    "timestamp": "2025-03-21T15:08:13.587323"
+    "analysis": "{\"architectural_style\":\"Futuristic and Modern\",\"color_palette\":\"Neutral tones with blue accents\",\"futuristic_elements\":\"Sweeping curves and expansive glass facades\",\"dominant_materials\":\"Glass, concrete\",\"mood\":\"Bright and bustling\",\"short_descriptive_label\":\"Futuristic public promenade\"}",
+    "timestamp": "2025-03-23T22:13:26"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_3.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_3.png",
-    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Cool tones with metallic accents\",\"futuristic_elements\":\"Elevated pathways, curved structures, integration of nature with architecture\",\"dominant_materials\":\"Glass, metal\",\"mood\":\"Visionary and imaginative\",\"short_descriptive_label\":\"Futuristic urban vision\"}",
-    "timestamp": "2025-03-21T15:08:17.731375"
+    "analysis": "{\"architectural_style\":\"Futuristic organic architecture\",\"color_palette\":\"Cool blues and greens with neutral tones\",\"futuristic_elements\":\"Curved, floating structures, transparent surfaces\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Visionary and optimistic\",\"short_descriptive_label\":\"Futuristic urban scene\"}",
+    "timestamp": "2025-03-23T22:13:30"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_4.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_4.png",
-    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Metallic, green, and earth tones\",\"futuristic_elements\":\"Curvilinear forms, advanced transportation technology, extensive green roofs\",\"dominant_materials\":\"Metal, glass, and vegetation\",\"mood\":\"Optimistic and innovative\",\"short_descriptive_label\":\"Futuristic urban oasis with advanced technology\"}",
-    "timestamp": "2025-03-21T15:08:22.802253"
+    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Greys, greens, and metallics\",\"futuristic_elements\":\"Streamlined structures, integrated greenery, advanced transportation\",\"dominant_materials\":\"Steel, glass, vegetation\",\"mood\":\"Innovative and optimistic\",\"short_descriptive_label\":\"Futuristic urban landscape with green integration\"}",
+    "timestamp": "2025-03-23T22:13:35"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_5.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_5.png",
-    "analysis": "{\"architectural_style\":\"Futuristic organic architecture\",\"color_palette\":\"Cool tones with blues, grays, and metallics\",\"futuristic_elements\":\"Curved structures, elevated walkways, integrated greenery, advanced transportation\",\"dominant_materials\":\"Glass, steel, concrete\",\"mood\":\"Optimistic and innovative\",\"short_descriptive_label\":\"Futuristic urban vista with organic forms\"}",
-    "timestamp": "2025-03-21T15:08:27.097281"
+    "analysis": "{\"architectural_style\":\"Futuristic urban design with sleek, organic forms\",\"color_palette\":\"Cool tones with metallic accents and greenery\",\"futuristic_elements\":\"Tube-like transport systems, elevated walkways, and biodomes\",\"dominant_materials\":\"Glass, metal, and concrete\",\"mood\":\"Utopian and optimistic\",\"short_descriptive_label\":\"Futuristic cityscape with dynamic elements\"}",
+    "timestamp": "2025-03-23T22:13:39"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_6.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_6.png",
-    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Blue and metallic silver\",\"futuristic_elements\":\"Elevated pools, intricate bridge structures, glass panels\",\"dominant_materials\":\"Glass and metal\",\"mood\":\"Innovative and vibrant\",\"short_descriptive_label\":\"Futuristic urban water architecture\"}",
-    "timestamp": "2025-03-21T15:08:30.926317"
+    "analysis": "{\"architectural_style\":\"Futuristic architecture\",\"color_palette\":\"Blues and metallic silvers\",\"futuristic_elements\":\"Large transparent structures, unconventional forms, suspended water spheres\",\"dominant_materials\":\"Glass, steel\",\"mood\":\"Innovative and imaginative\",\"short_descriptive_label\":\"Futuristic urban water architecture\"}",
+    "timestamp": "2025-03-23T22:13:43"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_7.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_7.png",
-    "analysis": "{\"architectural_style\":\"Futuristic Modern\",\"color_palette\":\"Cool tones with blue and silver accents\",\"futuristic_elements\":\"Sleek skyscrapers, flying vehicles, advanced materials\",\"dominant_materials\":\"Glass, steel, composite materials\",\"mood\":\"Optimistic and forward-looking\",\"short_descriptive_label\":\"Futuristic skyline with modern elements\"}",
-    "timestamp": "2025-03-21T15:08:35.220982"
+    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Blue and silver with white accents\",\"futuristic_elements\":\"Sleek towers, flying vehicles, advanced walkways\",\"dominant_materials\":\"Glass and metal\",\"mood\":\"Optimistic and visionary\",\"short_descriptive_label\":\"Futuristic Urban Landscape\"}",
+    "timestamp": "2025-03-23T22:13:49"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_8.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_8.png",
-    "analysis": "{\"architectural_style\":\"Futuristic\",\"color_palette\":\"Blue, green, gray\",\"futuristic_elements\":\"Hovering vehicles, sleek glass structures, floating greenery\",\"dominant_materials\":\"Glass, metal, vegetation\",\"mood\":\"Optimistic and forward-thinking\",\"short_descriptive_label\":\"Futuristic urban landscape\"}",
-    "timestamp": "2025-03-21T15:08:39.288105"
+    "analysis": "{\"architectural_style\":\"Futuristic and high-tech\",\"color_palette\":\"Cool tones with blues and grays dominating\",\"futuristic_elements\":\"Flying vehicles, curved architecture, and integrated greenery\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Optimistic and visionary\",\"short_descriptive_label\":\"Futuristic urban scene with flying vehicles\"}",
+    "timestamp": "2025-03-23T22:13:53"
   },
   {
     "original_path": "sample_images/Tomorrowland/tomorrowland_9.png",
     "processed_path": "processed_images/Tomorrowland/tomorrowland_9.png",
-    "analysis": "{\"architectural_style\":\"Futuristic, Organic\",\"color_palette\":\"Metallic silver, Green, Blue tones\",\"futuristic_elements\":\"Curved structures, Integrated greenery, Advanced infrastructure\",\"dominant_materials\":\"Metal, Glass\",\"mood\":\"Optimistic, Innovative\",\"short_descriptive_label\":\"Futuristic Urban Landscape\"}",
-    "timestamp": "2025-03-21T15:08:43.243005"
+    "analysis": "{\"architectural_style\":\"Futuristic and organic architecture\",\"color_palette\":\"Bright with whites, greens, and blues\",\"futuristic_elements\":\"Integrated greenery, loop structures, sleek curved lines\",\"dominant_materials\":\"Metal, glass, and vegetation\",\"mood\":\"Optimistic and utopian\",\"short_descriptive_label\":\"Futuristic urban utopia\"}",
+    "timestamp": "2025-03-23T22:13:57"
   },
   {
     "original_path": "sample_images/i_robot/i_robot_1.jpg",
     "processed_path": "processed_images/i_robot/i_robot_1.jpg",
-    "analysis": "{\"architectural_style\":\"Blend of retro and modern, with a mix of classic urban buildings and futuristic vehicles.\",\"color_palette\":\"Earthy tones with metallic accents, featuring browns, blues, and silver.\",\"futuristic_elements\":\"High-tech vehicles or structures with sleek, modern design.\",\"dominant_materials\":\"Brick and stone for buildings, metal for vehicles.\",\"mood\":\"Contrasting mix of nostalgic and futuristic atmospheres.\",\"short_descriptive_label\":\"Retro-futuristic urban scene\"}",
-    "timestamp": "2025-03-21T15:08:48.089584"
+    "analysis": "{\"architectural_style\":\"Futuristic cityscape with retro elements\",\"color_palette\":\"Warm browns, blues, and muted metallics\",\"futuristic_elements\":\"Sleek, streamlined vehicles and advanced signage\",\"dominant_materials\":\"Metal and glass for vehicles; brick and stone for buildings\",\"mood\":\"Dynamic and bustling\",\"short_descriptive_label\":\"Futuristic urban street scene\"}",
+    "timestamp": "2025-03-23T22:14:01"
   },
   {
     "original_path": "sample_images/i_robot/i_robot_2.jpg",
     "processed_path": "processed_images/i_robot/i_robot_2.jpg",
-    "analysis": "{\"architectural_style\":\"Contemporary urban with high-rise commercial buildings\",\"color_palette\":\"Neutral tones with grays and browns contrasted by blue digital screens\",\"futuristic_elements\":\"Large digital screens integrated into building facades, advanced urban technologies\",\"dominant_materials\":\"Glass, steel, and masonry\",\"mood\":\"Modern and bustling\",\"short_descriptive_label\":\"Contemporary high-tech urban scene\"}",
-    "timestamp": "2025-03-21T15:08:52.184490"
+    "analysis": "{\"architectural_style\":\"Contemporary with Neo-futuristic elements\",\"color_palette\":\"Earth tones with blue accents\",\"futuristic_elements\":\"Large digital screens, advanced architectural designs\",\"dominant_materials\":\"Glass, concrete, brick\",\"mood\":\"Modern and bustling\",\"short_descriptive_label\":\"Urban skyline with digital displays\"}",
+    "timestamp": "2025-03-23T22:14:05"
   },
   {
     "original_path": "sample_images/i_robot/i_robot_3.jpg",
     "processed_path": "processed_images/i_robot/i_robot_3.jpg",
-    "analysis": "{\"architectural_style\":\"Futuristic urban skyline with neo-futurist elements\",\"color_palette\":\"Earth tones with metallic grays and muted greens\",\"futuristic_elements\":\"High-rise skyscrapers with sleek, pointed tops and advanced transportation infrastructure\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Optimistic and progressive\",\"short_descriptive_label\":\"Futuristic Chicago skyline\"}",
-    "timestamp": "2025-03-21T15:08:57.926694"
+    "analysis": "{\"architectural_style\":\"Futuristic high-rise\",\"color_palette\":\"Muted earth tones with metallic accents\",\"futuristic_elements\":\"Tall, slender skyscrapers with sleek, minimalistic designs\",\"dominant_materials\":\"Glass, steel, and concrete\",\"mood\":\"Advanced and urbanized\",\"short_descriptive_label\":\"Futuristic urban skyline\"}",
+    "timestamp": "2025-03-23T22:14:09"
   },
   {
     "original_path": "sample_images/i_robot/i_robot_4.jpg",
     "processed_path": "processed_images/i_robot/i_robot_4.jpg",
-    "analysis": "{\"architectural_style\":\"Modern with hints of Art Deco\",\"color_palette\":\"Warm golds and browns\",\"futuristic_elements\":\"Skyscrapers with unique geometric shapes\",\"dominant_materials\":\"Glass and steel\",\"mood\":\"Dynamic and bustling\",\"short_descriptive_label\":\"Urban high-rise skyline\"}",
-    "timestamp": "2025-03-21T15:09:01.407157"
+    "analysis": "{\"architectural_style\":\"Contemporary High-Rise\",\"color_palette\":\"Warm, with shades of beige and brown\",\"futuristic_elements\":\"Sleek, geometric tower structures\",\"dominant_materials\":\"Glass, steel, and concrete\",\"mood\":\"Vibrant and dynamic\",\"short_descriptive_label\":\"Contemporary urban skyline\"}",
+    "timestamp": "2025-03-23T22:14:12"
   }
 ]
