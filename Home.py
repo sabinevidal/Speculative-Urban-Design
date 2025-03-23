@@ -68,6 +68,8 @@ def main():
     4. **Speculative Urban Future Gallery**: View and explore all previously generated urban future images
 
     Use the sidebar to navigate between these sections.
+
+    API keys for OpenAI and Stability AI are provided - please use responsibly!
     """
     )
 
