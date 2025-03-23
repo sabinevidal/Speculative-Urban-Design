@@ -1,0 +1,12 @@
+[
+    {
+        "timestamp": "2025-03-23 18:09:56",
+        "heading": 0,
+        "original_image": "streetview_images/alex-vasey-gjDqRJW2HPU-unsplash.jpg",
+        "transformed_images": [
+            "results/urban_design/alex-vasey-gjDqRJW2HPU-unsplash/urban_design_alex-vasey-gjDqRJW2HPU-unsplash_1742749796.png"
+        ],
+        "prompt": "Transform this urban photograph into an eco-futuristic urban oasis. Emphasize the integration of lush greenery with advanced architecture. Highlight futuristic high-rise buildings with organic, flowing shapes made of glass and steel. Include elevated pedestrian pathways and structures featuring abundant greenery, creating a harmonious blend of nature and modern technology. Incorporate elements inspired by traditional African architecture, and add flying vehicles to convey a progressive, dynamic atmosphere. Utilize earthy tones with greens, muted metallics, and natural materials like stone and wood to accentuate this harmonious and innovative urban scene.",
+        "prompt_name": "cluster_2"
+    }
+]

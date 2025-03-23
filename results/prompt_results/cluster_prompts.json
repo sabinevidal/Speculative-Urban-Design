@@ -1,0 +1,27 @@
+{
+  "cluster_0": {
+    "size": 16,
+    "name": "Neon Future Metropolis",
+    "prompt": "Transform the urban photograph into a cyberpunk cityscape, capturing a futuristic metropolis at night. Emphasize towering skyscrapers with sleek glass and steel facades, integrated with advanced digital technology and holographic billboards. Include flying vehicles and hovercrafts navigating the sky above elevated transit pathways. The scene should be illuminated by vibrant neon lighting in blues and greens, contrasting against a dark, mysterious atmosphere. The ground level reveals a bustling market with holographic signs and digital displays. Include high-density urban layers and minimal visible light sources to suggest advanced energy efficiency. Use materials such as metal and glass, with accents of concrete for a dystopian yet advanced feel. Capture the mood of a dynamic yet mysterious future city with cool tones and vibrant neon highlights."
+  },
+  "cluster_1": {
+    "size": 14,
+    "name": "Retro-Dystopian Metropolis",
+    "prompt": "Imagine a retro-dystopian metropolis, where grand neoclassical urban plazas meet futuristic organics. Picture colossal skyscrapers with sleek geometric lines and integrated greenery, juxtaposed against brutalist industrial megastructures. The scene is dynamic and bustling, yet carries a surreal, dystopian aura. Incorporate high-tech vehicles and floating platforms amidst a landscape of concrete, glass, and metal. Illuminate the cityscape with interactive digital displays, casting warm gold and brown hues across a predominantly monochrome skyline. Capture the visual contrast of nostalgic retro-futurism with visionary modernism, creating a somber yet introspective atmosphere. Emphasize scale and complexity with surreal statues and flowing architectural forms, blending art deco with modernist styles. The overall mood is both imposing and contemplative, accented by muted earth tones and metallic shades."
+  },
+  "cluster_2": {
+    "size": 4,
+    "name": "Futuristic Urban Oasis",
+    "prompt": "Transform this urban photograph into an eco-futuristic urban oasis. Emphasize the integration of lush greenery with advanced architecture. Highlight futuristic high-rise buildings with organic, flowing shapes made of glass and steel. Include elevated pedestrian pathways and structures featuring abundant greenery, creating a harmonious blend of nature and modern technology. Incorporate elements inspired by traditional African architecture, and add flying vehicles to convey a progressive, dynamic atmosphere. Utilize earthy tones with greens, muted metallics, and natural materials like stone and wood to accentuate this harmonious and innovative urban scene."
+  },
+  "cluster_3": {
+    "size": 14,
+    "name": "Futuristic Urban Oasis",
+    "prompt": "Transform this urban photograph into a futuristic urban oasis. Capture a sleek contemporary skyline accentuated by tall skyscrapers with smooth glass facades and minimalist design. Infuse the scene with high-speed futuristic transportation elements and smooth flowing architecture interwoven with vertical gardens and green spaces. Use glass, steel, and concrete to create advanced urban environments, with large digital displays integrated into building facades. The mood should feel both dynamic and serene, blending innovation with calmness. Apply muted earth tones, grays, and blues, contrasted by warm sepia accents and blue digital screens to achieve a slightly dystopian yet harmonious atmosphere. Ensure the setting evokes a sense of optimism and progress with integrated high-tech design features."
+  },
+  "cluster_4": {
+    "size": 14,
+    "name": "Neofuturistic Urban Oasis",
+    "prompt": "Transform the cityscape into a neofuturistic urban oasis that blends advanced technology with organic forms. Incorporate towering spiral skyscrapers with curved and asymmetrical designs, interwoven with glass and metal materials. Add elevated walkways and skybridges integrating greenery, surrounded by floating vehicles and sleek flying transit systems. Embed extensive green roofs and solar fields within the architecture, using advanced materials to reflect metallic silver, glassy blue, and vibrant green hues. Illuminate the scene with innovative and vibrant lighting, casting the city in a calm, visionary ambiance. Balance cool tones with pops of bright silver accents against an optimistic and harmonious skyline. Capture the synergy of advanced infrastructure and nature, creating an imaginative, utopian landscape with sweeping curves and intricate bridge structures. Emphasize the advanced transportation systems, highlighting a sustainable, visionary future."
+  }
+}
