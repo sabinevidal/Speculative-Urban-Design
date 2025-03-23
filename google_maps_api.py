@@ -48,35 +48,6 @@ def get_random_coordinates():
             print(f"Error parsing JSON response: {e}")
             return None
 
-            # # Extract latitude and longitude from the 'nearest' element
-            # nearest = root.find("major")
-            # if nearest is not None:
-            #     lat = nearest.find("latt").text
-            #     lng = nearest.find("longt").text
-            #     city = (
-            #         nearest.find("city").text
-            #         if nearest.find("city") is not None
-            #         else "Unknown Location"
-            #     )
-
-            #     return {"latitude": float(lat), "longitude": float(lng), "name": city}
-        # except ET.ParseError:
-        #     # Try a more lenient approach - find the values directly in the XML string
-        #     # This is a fallback for malformed XML that still contains the data we need
-        #     import re
-
-        #     # Extract latitude using regex
-        #     lat_match = re.search(r"<latt>([+-]?\d+\.?\d*)</latt>", response.text)
-        #     lng_match = re.search(r"<longt>([+-]?\d+\.?\d*)</longt>", response.text)
-        #     city_match = re.search(r"<city>(.*?)</city>", response.text)
-
-        #     if lat_match and lng_match:
-        #         lat = lat_match.group(1)
-        #         lng = lng_match.group(1)
-        #         city = city_match.group(1) if city_match else "Unknown Location"
-
-        #         return {"latitude": float(lat), "longitude": float(lng), "name": city}
-
         # return None
     except Exception as e:
         # Log the error but don't display it to the user

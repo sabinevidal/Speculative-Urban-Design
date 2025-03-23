@@ -78,18 +78,6 @@ def parse_arguments():
         default=True,
         help="Whether to search for images recursively in subdirectories",
     )
-    # parser.add_argument(
-    #     "--analysis_prompt",
-    #     type=str,
-    #     default="Analyze the following urban image and provide insights on:\n"
-    #     "1. Architectural style\n"
-    #     "2. Color palette\n"
-    #     "3. Futuristic elements\n"
-    #     "4. Short descriptive label for clustering\n"
-    #     "\n"
-    #     "Image data:\n",
-    #     help="Prompt to use for OpenAI image analysis",
-    # )
     parser.add_argument(
         "--max_tokens",
         type=int,
@@ -187,7 +175,17 @@ def analyze_image_with_openai(base64_image, prompt):
     try:
         response = client.responses.create(
             model="gpt-4o",
-            input=get_openai_input(base64_image, prompt),
+            input={
+                "role": "user",
+                "content": [
+                    {"type": "input_text", "text": prompt},
+                    {
+                        "type": "input_image",
+                        "image_url": f"data:image/jpeg;base64,{base64_image}",
+                        "detail": "low",
+                    },
+                ],
+            },
             text={
                 "format": {
                     "type": "json_schema",
@@ -293,14 +291,11 @@ def main():
         # Encode image to base64
         base64_image = encode_image_to_base64(img)
 
-        # Save base64 representation (optional)
-        # base64_path = os.path.splitext(processed_path)[0] + ".b64.txt"
-        # with open(base64_path, "w") as f:
-        #     f.write(base64_image)
+        analysis_prompt = "You are an expert at image analysis related to urban design and architecture. You are given an image of an urban scene and you need to provide insights on the architectural style, color palette, futuristic elements, archetypes, and a short descriptive label for clustering. The insights should be converted into the given structure. "
 
         # Analyze image with OpenAI
         print(f"Analyzing image with OpenAI...")
-        analysis = analyze_image_with_openai(base64_image, get_analysis_prompt())
+        analysis = analyze_image_with_openai(base64_image, analysis_prompt)
 
         # Indicate completion of this image - this is tracked by the progress bar
         print(f"Completed analysis for: {os.path.basename(image_path)}")
