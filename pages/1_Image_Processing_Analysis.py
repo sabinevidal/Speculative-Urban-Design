@@ -12,6 +12,14 @@ import queue
 # Add the root directory to Python path to allow module imports
 sys.path.append(str(Path(__file__).parent.parent))
 
+# Page configuration - Must be the first Streamlit command
+st.set_page_config(
+    page_title="Image Processing & Analysis for Urban Futures",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    page_icon="🏙️",
+)
+
 # Import the ImageProcessor from image_processor module
 try:
     from image_processor import (
@@ -25,14 +33,6 @@ except ImportError:
     )
     VALID_EXTENSIONS = [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"]
     DEFAULT_ANALYSIS_PROMPT = "Analyze this urban scene"
-
-# Page configuration
-st.set_page_config(
-    page_title="Image Processing & Analysis for Urban Futures",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    page_icon="🏙️",
-)
 
 # Apply custom styling
 st.markdown(
