@@ -27,9 +27,9 @@ try:
         VALID_EXTENSIONS,
         DEFAULT_ANALYSIS_PROMPT,
     )
-except ImportError:
+except ImportError as e:
     st.error(
-        "Failed to import ImageProcessor module. Make sure image_processor.py is in the root directory."
+        f"Failed to import ImageProcessor module: {str(e)}. Make sure image_processor.py is in the root directory."
     )
     VALID_EXTENSIONS = [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"]
     DEFAULT_ANALYSIS_PROMPT = "Analyze this urban scene"
