@@ -4,10 +4,7 @@ import time
 from google_maps_api import find_random_urban_street_view, get_street_view_image
 from stability_api import transform_image_with_prompt, save_generated_images
 import shutil
-from directory_utils import (
-    save_metadata as utils_save_metadata,
-    load_metadata as utils_load_metadata,
-)
+from directory_utils import save_metadata, load_metadata
 
 # Output directories
 STREETVIEW_DIR = "streetview_images"
@@ -124,7 +121,7 @@ def transform_street_view(image_path, prompt, strength=0.7, prompt_name=None):
 
         # Save metadata when transform_street_view is called directly
         # Load existing metadata
-        metadata = utils_load_metadata()
+        metadata = load_metadata()
 
         # Add the new result to metadata
         metadata.append(
@@ -139,7 +136,7 @@ def transform_street_view(image_path, prompt, strength=0.7, prompt_name=None):
         )
 
         # Save the updated metadata
-        utils_save_metadata(metadata)
+        save_metadata(metadata)
 
         return result
 
@@ -155,7 +152,7 @@ def load_metadata():
     Returns:
         list: List containing urban future metadata
     """
-    return utils_load_metadata()
+    return load_metadata()
 
 
 def save_metadata(metadata):
@@ -165,4 +162,4 @@ def save_metadata(metadata):
     Args:
         metadata (list): List containing urban future metadata
     """
-    utils_save_metadata(metadata)
+    save_metadata(metadata)

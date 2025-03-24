@@ -104,6 +104,7 @@ def main():
     Use the sidebar to navigate between these sections.
 
     API keys for OpenAI and Stability AI are provided - please use responsibly!
+    [Github](https://github.com/sabinevidal/Speculative-Urban-Design)
     """
     )
 

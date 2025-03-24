@@ -80,7 +80,7 @@ with st.spinner("Loading available prompts..."):
     import sys
 
     sys.path.append(".")  # Ensure the root directory is in the path
-    from directory_utils import load_metadata as load_combined_metadata
+    from directory_utils import load_metadata
 
     # Ensure directories and files are set up properly
     setup_directories()
@@ -233,8 +233,8 @@ if st.session_state.street_view_image:
 
 # Display previously generated results at the bottom
 with st.spinner("Loading previous urban future images..."):
-    # Use the load_metadata function from directory_utils to get combined metadata
-    urban_future_metadata = load_combined_metadata()
+    # Use the load_metadata function from directory_utils
+    urban_future_metadata = load_metadata()
 
 if urban_future_metadata:
     with st.expander("View Previous Urban Future Image Generations", expanded=False):
@@ -242,25 +242,21 @@ if urban_future_metadata:
 
         # Show the most recent 5 designs
         for i, result in enumerate(urban_future_metadata[-5:]):
-            # Get a display name from either location field (old format) or original_image path (new format)
-            if "location" in result:
-                display_name = result["location"]
-            else:
-                # Extract a display name from the original image path
-                img_path = result.get("original_image", "Unknown")
-                display_name = (
-                    os.path.basename(img_path)
-                    .split(".")[0]
-                    .replace("-", " ")
-                    .replace("_", " ")
-                )
+            # Extract a display name from the original image path
+            img_path = result.get("original_image", "Unknown")
+            display_name = (
+                os.path.basename(img_path)
+                .split(".")[0]
+                .replace("-", " ")
+                .replace("_", " ")
+            )
 
             with st.expander(f"{display_name} ({result.get('timestamp', 'Unknown')})"):
                 col1, col2 = st.columns([1, 2])
 
                 with col1:
                     st.markdown("**Original Street View**")
-                    orig_img, error = safe_open_image(result["original_image"])
+                    orig_img, error = safe_open_image(img_path)
                     if orig_img:
                         st.image(orig_img, width=None)
                     elif error:

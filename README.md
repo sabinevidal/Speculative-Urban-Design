@@ -17,7 +17,6 @@ A Streamlit-based application that processes, analyzes and clusters urban design
    ```
    OPENAI_API_KEY=your_openai_api_key_here
    STABILITY_API_KEY=your_stability_api_key_here
-   GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
    ```
 
 3. Install dependencies:
