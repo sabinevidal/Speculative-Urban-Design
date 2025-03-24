@@ -47,11 +47,11 @@ def find_all_urban_future_images():
     results_dir = "results/urban_future"
     image_files = []
 
-    # Get a set of images already in metadata to avoid duplicates
-    metadata_path = os.path.join(results_dir, "urban_future_metadata.json")
-    metadata_images = set()
-    metadata = load_json_if_exists(metadata_path) or []
+    # Get metadata using combined loader from directory_utils
+    metadata = load_combined_metadata()
 
+    # Build a set of images already in metadata to avoid duplicates
+    metadata_images = set()
     for entry in metadata:
         if "transformed_images" in entry:
             for img in entry["transformed_images"]:
@@ -86,6 +86,12 @@ st.write("View all previously generated urban future images.")
 # Load the prompt mapping to get prompt names
 from urban_future_generator import load_cluster_prompts, setup_directories
 
+# Import directory_utils for metadata handling
+import sys
+
+sys.path.append(".")  # Ensure the root directory is in the path
+from directory_utils import load_metadata as load_combined_metadata
+
 # Ensure directories and files are set up properly
 setup_directories()
 
@@ -97,9 +103,8 @@ if prompts_data:
         cluster_id: data["name"] for cluster_id, data in prompts_data.items()
     }
 
-# Load urban future metadata
-metadata_path = "results/urban_future/urban_future_metadata.json"
-urban_future_metadata = load_json_if_exists(metadata_path) or []
+# Load urban future metadata from both locations
+urban_future_metadata = load_combined_metadata()
 
 # Find all image files not in metadata
 unlisted_images = find_all_urban_future_images()

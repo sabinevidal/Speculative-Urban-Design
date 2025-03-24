@@ -56,7 +56,7 @@ def get_available_streetview_images():
 # Function to ensure required directories exist
 def setup_directories():
     """Create necessary directories if they don't exist."""
-    os.makedirs("results/urban_design", exist_ok=True)
+    os.makedirs("results/urban_future", exist_ok=True)
 
 
 # Main content
@@ -75,6 +75,12 @@ with st.spinner("Loading available prompts..."):
         load_cluster_prompts,
         setup_directories,
     )
+
+    # Import the directory_utils for metadata handling
+    import sys
+
+    sys.path.append(".")  # Ensure the root directory is in the path
+    from directory_utils import load_metadata as load_combined_metadata
 
     # Ensure directories and files are set up properly
     setup_directories()
@@ -227,17 +233,29 @@ if st.session_state.street_view_image:
 
 # Display previously generated results at the bottom
 with st.spinner("Loading previous urban future images..."):
-    urban_design_metadata = load_json_if_exists(
-        "results/urban_design/urban_design_metadata.json"
-    )
+    # Use the load_metadata function from directory_utils to get combined metadata
+    urban_future_metadata = load_combined_metadata()
 
-if urban_design_metadata:
+if urban_future_metadata:
     with st.expander("View Previous Urban Future Image Generations", expanded=False):
         st.subheader("Previous Urban Future Image Generations")
 
         # Show the most recent 5 designs
-        for i, result in enumerate(urban_design_metadata[-5:]):
-            with st.expander(f"{result['location']} ({result['timestamp']})"):
+        for i, result in enumerate(urban_future_metadata[-5:]):
+            # Get a display name from either location field (old format) or original_image path (new format)
+            if "location" in result:
+                display_name = result["location"]
+            else:
+                # Extract a display name from the original image path
+                img_path = result.get("original_image", "Unknown")
+                display_name = (
+                    os.path.basename(img_path)
+                    .split(".")[0]
+                    .replace("-", " ")
+                    .replace("_", " ")
+                )
+
+            with st.expander(f"{display_name} ({result.get('timestamp', 'Unknown')})"):
                 col1, col2 = st.columns([1, 2])
 
                 with col1:

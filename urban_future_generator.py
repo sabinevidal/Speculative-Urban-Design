@@ -4,6 +4,10 @@ import time
 from google_maps_api import find_random_urban_street_view, get_street_view_image
 from stability_api import transform_image_with_prompt, save_generated_images
 import shutil
+from directory_utils import (
+    save_metadata as utils_save_metadata,
+    load_metadata as utils_load_metadata,
+)
 
 # Output directories
 STREETVIEW_DIR = "streetview_images"
@@ -120,7 +124,7 @@ def transform_street_view(image_path, prompt, strength=0.7, prompt_name=None):
 
         # Save metadata when transform_street_view is called directly
         # Load existing metadata
-        metadata = load_metadata()
+        metadata = utils_load_metadata()
 
         # Add the new result to metadata
         metadata.append(
@@ -135,7 +139,7 @@ def transform_street_view(image_path, prompt, strength=0.7, prompt_name=None):
         )
 
         # Save the updated metadata
-        save_metadata(metadata)
+        utils_save_metadata(metadata)
 
         return result
 
@@ -151,27 +155,7 @@ def load_metadata():
     Returns:
         list: List containing urban future metadata
     """
-    metadata_path = os.path.join(RESULTS_DIR, "urban_future_metadata.json")
-
-    # Ensure the file exists
-    if not os.path.exists(metadata_path):
-        with open(metadata_path, "w") as f:
-            f.write("[]")
-        return []
-
-    # Load the metadata
-    try:
-        with open(metadata_path, "r") as f:
-            content = f.read().strip()
-            if not content:  # File exists but is empty
-                return []
-            return json.load(f)
-    except json.JSONDecodeError as e:
-        print(f"Error loading metadata file: {e}")
-        # Reset the file if it's corrupted
-        with open(metadata_path, "w") as f:
-            f.write("[]")
-        return []
+    return utils_load_metadata()
 
 
 def save_metadata(metadata):
@@ -181,27 +165,4 @@ def save_metadata(metadata):
     Args:
         metadata (list): List containing urban future metadata
     """
-    metadata_path = os.path.join(RESULTS_DIR, "urban_future_metadata.json")
-
-    # Ensure we're not overwriting existing data
-    existing_metadata = []
-    if os.path.exists(metadata_path):
-        try:
-            with open(metadata_path, "r") as f:
-                content = f.read().strip()
-                if content:  # File exists and is not empty
-                    existing_metadata = json.load(f)
-        except json.JSONDecodeError:
-            # If the file is corrupted, we'll start with an empty list
-            existing_metadata = []
-
-    # If metadata is a single entry, convert it to a list
-    if isinstance(metadata, dict):
-        metadata = [metadata]
-
-    # Combine existing metadata with new metadata
-    combined_metadata = existing_metadata + metadata
-
-    # Write the combined metadata back to the file
-    with open(metadata_path, "w") as f:
-        json.dump(combined_metadata, f, indent=4)
+    utils_save_metadata(metadata)
