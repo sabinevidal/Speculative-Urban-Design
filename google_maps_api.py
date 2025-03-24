@@ -187,7 +187,7 @@ def save_street_view_image(image_data, output_dir, base_filename="street_view"):
     return image_path
 
 
-def find_random_urban_street_view(output_dir="sample_images/street_view", attempts=5):
+def find_random_urban_street_view(output_dir="streetview_images", attempts=5):
     """
     Find a random urban street view, save it, and return the image path.
 

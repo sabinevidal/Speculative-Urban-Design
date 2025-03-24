@@ -6,7 +6,7 @@ from stability_api import transform_image_with_prompt, save_generated_images
 import shutil
 
 # Output directories
-STREETVIEW_DIR = "sample_images/street_view"
+STREETVIEW_DIR = "streetview_images"
 RESULTS_DIR = "results/urban_future"
 PROMPT_FILE = "results/prompt_results/cluster_prompts.json"
 
