@@ -198,7 +198,7 @@ else:
                 st.markdown("**Original Street View**")
                 orig_img, error = safe_open_image(design.get("original_image", ""))
                 if orig_img:
-                    st.image(orig_img, use_container_width=True)
+                    st.image(orig_img, width=None)
                 elif error:
                     st.error(error)
 
@@ -221,7 +221,7 @@ else:
                         img, error = safe_open_image(img_path)
                         if img:
                             transformed_cols[j % len(transformed_cols)].image(
-                                img, use_container_width=True
+                                img, width=None
                             )
                         elif error:
                             transformed_cols[j % len(transformed_cols)].error(error)

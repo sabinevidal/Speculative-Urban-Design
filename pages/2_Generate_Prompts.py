@@ -280,7 +280,7 @@ else:
                                             cols[i].image(
                                                 img,
                                                 caption=os.path.basename(img_path),
-                                                use_container_width=True,
+                                                width=None,
                                             )
                                         elif error:
                                             cols[i].error(error)

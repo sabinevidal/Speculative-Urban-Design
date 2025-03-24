@@ -122,7 +122,7 @@ with col1:
                 st.image(
                     img,
                     caption=f"Selected Image: {selected_image}",
-                    use_container_width=True,
+                    width=None,
                 )
             elif error:
                 st.error(error)
@@ -185,7 +185,7 @@ if st.session_state.street_view_image:
                         transform_result["original_image"]
                     )
                     if orig_img:
-                        st.image(orig_img, use_container_width=True)
+                        st.image(orig_img, width=None)
                     elif error:
                         st.error(error)
 
@@ -198,7 +198,7 @@ if st.session_state.street_view_image:
                         img_path = transform_result["transformed_images"][0]
                         img, error = safe_open_image(img_path)
                         if img:
-                            st.image(img, use_container_width=True)
+                            st.image(img, width=None)
                         elif error:
                             st.error(error)
                     else:
@@ -217,7 +217,7 @@ if st.session_state.street_view_image:
                         idx = j % len(variation_cols)
                         img, error = safe_open_image(img_path)
                         if img:
-                            variation_cols[idx].image(img, use_container_width=True)
+                            variation_cols[idx].image(img, width=None)
                         elif error:
                             variation_cols[idx].error(error)
             else:
@@ -244,7 +244,7 @@ if urban_design_metadata:
                     st.markdown("**Original Street View**")
                     orig_img, error = safe_open_image(result["original_image"])
                     if orig_img:
-                        st.image(orig_img, use_container_width=True)
+                        st.image(orig_img, width=None)
                     elif error:
                         st.error(error)
 
@@ -261,6 +261,6 @@ if urban_design_metadata:
                             ):  # Ensure we don't exceed the number of columns
                                 img, error = safe_open_image(img_path)
                                 if img:
-                                    cols[j].image(img, use_container_width=True)
+                                    cols[j].image(img, width=None)
                                 elif error:
                                     cols[j].error(error)

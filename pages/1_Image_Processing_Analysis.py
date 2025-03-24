@@ -342,7 +342,7 @@ with tab1:
                             cols[i].image(
                                 img,
                                 caption=os.path.basename(img_path),
-                                use_container_width=True,
+                                width=None,
                             )
                         else:
                             cols[i].error(error)
@@ -524,7 +524,7 @@ with tab3:
                         processed_path = filtered_results[i]["processed_path"]
                         img, error = safe_open_image(processed_path)
                         if img:
-                            col1.image(img, use_container_width=True)
+                            col1.image(img, width=None)
                         elif error:
                             col1.error(error)
 
@@ -657,7 +657,7 @@ with tab3:
                                     cols[i].image(
                                         img,
                                         caption=os.path.basename(img_path),
-                                        use_container_width=True,
+                                        width=None,
                                     )
                                 elif error and i < len(cols):
                                     cols[i].error(error)
@@ -676,7 +676,7 @@ with tab3:
                 with col1:
                     st.markdown("#### Cluster Visualization")
                     if os.path.exists(cluster_viz_path):
-                        st.image(cluster_viz_path, use_container_width=True)
+                        st.image(cluster_viz_path, width=None)
                     else:
                         st.error(
                             f"Cluster visualization image not found at {cluster_viz_path}"
@@ -685,7 +685,7 @@ with tab3:
                 with col2:
                     st.markdown("#### Feature Importance")
                     if os.path.exists(feature_importance_path):
-                        st.image(feature_importance_path, use_container_width=True)
+                        st.image(feature_importance_path, width=None)
                     else:
                         st.error(
                             f"Feature importance image not found at {feature_importance_path}"
